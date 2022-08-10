@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<variables>
+
+
+  <input server='conn3' name='txtChartTimer' type='analog' ext='PV' var='MB_GSBGP_TOTAL_WPA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtAnalog_1' type='analog' ext='PV' var='FI070971A_2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='rtAnalog_2' type='analog' ext='PV' var='PI070974_2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='rtAnalog_3' type='analog' ext='PV' var='TI070989_2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtAnalog_4' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_STEAM-SPRHEATR_GAS-OUTLET-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtAnalog_5' type='analog' ext='PV' var='TIC070916_2.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+         <input server='conn3' name='rtAnalog_6' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_STEAM-SPRHEATR_GAS-INLET-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+
+           <input server='conn3' name='rtSO2cur_EPB' type='analog' ext='PV' var='AI070988_2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+             <input server='conn3' name='rtO2cur_EPB' type='analog' ext='PV' var='AI070989_2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+             <input server='conn3' name='rtNOxcur_EPB' type='analog' ext='PV' var='AI070990_2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+             <input server='conn3' name='rtHumcur_EPB' type='analog' ext='PV' var='AI070991_2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+             <input server='conn3' name='rtSO2cur_CDB' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+             <input server='conn3' name='rtO2cur_CDB' type='analog' ext='PV' var='AIC070906_2.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+</variables>
+
+

@@ -1,0 +1,199 @@
+<?xml version="1.0"?>
+<variables>
+
+     <input server='conn3' name='txtChartTimer' type='analog' ext='PV' var='MB_GSBGP_TOTAL_WPA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtStageDP1' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-1-DP' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+       <input server='conn3' name='rtStageDP2' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-2-DP' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+         <input server='conn3' name='rtStageDP3' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-3-DP' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+         <input server='conn3' name='rtStageDP4' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-4-DP' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+         <input server='conn3' name='rtStageDP5' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-5-DP' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtStagePDIS1' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-1-DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+         <input server='conn3' name='rtStagePDIS2' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-2-DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='rtStagePDIS3' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-3-DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='rtStagePDIS4' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-4-DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='rtStagePDIS5' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-5-DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+         <input server='conn3' name='rtStagePSUC2' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-2-SUCT-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='rtStagePSUC3' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-3-SUCT-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='rtStagePSUC4' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-4-SUCT-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='rtStagePSUC5' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-5-SUCT-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+             <input server='conn3' name='rtStageTDIS1' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-1-AFTERCOOLR-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+               <input server='conn3' name='rtStageTDIS2' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-2-AFTERCOOLR-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+               <input server='conn3' name='rtStageTDIS3' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-3-AFTERCOOLR-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+               <input server='conn3' name='rtStageTDIS4' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-4-AFTERCOOLR-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='gvalve1' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_SUCT-VLV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='gvalve2' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_SCRB-DRAIN-VLV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='gvalve3' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-2-SUCT-SCRB-OUTLET-LCV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+
+            <input server='conn3' name='gvalve4' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_SUCT-VLV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+              <input server='conn3' name='gvalve5' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_SDSTRM-VLV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	  </input>
+
+<input server='conn3' name='gvalve6' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_PURGE-GAS-INLET-VLV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+<input server='conn3' name='gvalve7' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-5-SUCT-SCRB-OUTLET-LCV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve8' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-4-SUCT-SCRB-OUTLET-LCV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='gvalve9' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_DISCH-VLV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+      <input server='conn3' name='gvalve10' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_BDV-1.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='gvalve11' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-3-SUCT-SCRB-OUTLET-LCV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ 
+
+        <input server='conn3' name='gpump1' type='status' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_BOOST-PMP-MOTOR-CTRL.op' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+</variables>
+
+

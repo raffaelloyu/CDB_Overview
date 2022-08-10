@@ -1,0 +1,669 @@
+<?xml version="1.0"?>
+<variables>
+
+     <input server='conn3' name='rtSulfWaterTemp' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN_COOL-H2O-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtBeltSpeed1' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-1_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp1' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-1_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltSpeed2' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-2_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp2' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-2_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+         <input server='conn3' name='rtBeltSpeed3' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-3_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp3' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-3_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+           <input server='conn3' name='rtBeltSpeed4' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-4_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp4' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-4_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='rtBeltSpeed5' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-5_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp5' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-5_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='rtBeltSpeed6' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-6_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp6' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-6_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+
+
+             <input server='conn3' name='rtBeltSpeed7' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-7_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp7' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-7_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+             <input server='conn3' name='rtBeltSpeed8' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-8_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp8' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-8_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+             <input server='conn3' name='rtBeltSpeed9' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-9_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp9' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-9_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+             <input server='conn3' name='rtBeltSpeed10' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-10_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp10' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-10_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+             <input server='conn3' name='rtBeltSpeed11' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-11_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp11' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-11_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+             <input server='conn3' name='rtBeltSpeed12' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-12_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp12' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-12_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+             <input server='conn3' name='rtBeltSpeed13' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-13_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp13' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-13_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+             <input server='conn3' name='rtBeltSpeed14' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-14_BELT-MOTOR-SPD' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtBeltTemp14' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-14_RTFRMR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+
+      <input server='conn3' name='gdsvalve_SV081011_A' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-1_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='gdsvalve_YV081010_A' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-1_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='gdsvalve_SV081011_B' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-2_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_B' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-2_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+          <input server='conn3' name='gdsvalve_SV081011_C' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-3_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_C' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-3_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='gdsvalve_SV081011_D' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-4_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_D' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-4_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='gdsvalve_SV081011_E' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-5_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_E' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-5_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+         <input server='conn3' name='gdsvalve_SV081011_F' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-6_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_F' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-6_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='gdsvalve_SV081011_G' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-7_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_G' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-7_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='gdsvalve_SV081011_H' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-8_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_H' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-8_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='gdsvalve_SV081011_I' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-9_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_I' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-9_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='gdsvalve_SV081011_J' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-10_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_J' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-10_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='gdsvalve_SV081011_K' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-11_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_K' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-11_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='gdsvalve_SV081011_L' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-12_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_L' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-12_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='gdsvalve_SV081011_M' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-13_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_M' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-13_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='gdsvalve_SV081011_N' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-14_RELEASE-AGNT-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdsvalve_YV081010_N' type='status' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-14_SLFR-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='gdsbelt_XL_X081001_AB_front' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-1_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_AB_rear' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-1_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_BB_front' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-2_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_BB_rear' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-2_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_CB_front' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-3_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_CB_rear' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-3_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_DB_front' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-4_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_DB_rear' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-4_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_EB_front' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-5_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_EB_rear' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-5_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_GB_front' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-7_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_GB_rear' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-7_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+       <input server='conn3' name='gdsbelt_XL_X081001_HB_front' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-8_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_HB_rear' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-8_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_IB_front' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-9_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_IB_rear' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-9_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_JB_front' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-10_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_JB_rear' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-10_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_KB_front' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-11_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_KB_rear' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-11_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_LB_front' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-12_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_LB_rear' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-12_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_MB_front' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-13_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_MB_rear' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-13_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_NB_front' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-14_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_NB_rear' type='animation_analog' ext='ST' var='XHN_SLFR-PLNT_SLFR-GRAN-14_BELT-MOTOR-SPD.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsbelt_XL_X081001_FB_front' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-6_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbelt_XL_X081001_FB_rear' type='animation' ext='ST' var=' XHN_SLFR-PLNT_SLFR-GRAN-6_BELT-MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+         <input server='conn3' name='gdsbeltConv1_front' type='animation' ext='ST' var='XHN_SLFR-PLNT_CONV-1_MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsbeltConv1_rear' type='animation' ext='ST' var='XHN_SLFR-PLNT_CONV-1_MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='gdspump_P081002A' type='status' ext='PV' var='XHN_SLFR-PLNT_RELEASE-AGNT-PMP-1_MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='gdspump_P081002B' type='status' ext='PV' var='XHN_SLFR-PLNT_RELEASE-AGNT-PMP-2_MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='gdspump_P081002C' type='status' ext='PV' var='XHN_SLFR-PLNT_RELEASE-AGNT-PMP-3_MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='gdspump_P081002D' type='status' ext='PV' var='XHN_SLFR-PLNT_RELEASE-AGNT-PMP-4_MOTOR-RUN.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+   <input server='conn3' name='gdspump_LiqSulA' type='status' ext='PV' var='PCDI0801_E_0001.XL_P081001_A.PVFL' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='gdspump_LiqSulB' type='status' ext='PV' var='PCDI0801_E_0002.XL_P081001_B.PVFL' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+   <input server='conn3' name='gdspump_LiqSulC' type='status' ext='PV' var='PCDI0801_E_0001.XL_P081001_C.PVFL' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='gdspump_LiqSulD' type='status' ext='PV' var='PCDI0801_E_0002.XL_P081001_D.PVFL' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='rtvlv08401' type='analog' ext='PV' var='PIC088401.PIDA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='rtSulfPumpCDTemp' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-7-14_LIQ-SLFR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtSulfPumpCDPress' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-PMP-3-4_DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtSulfPumpABTemp' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-GRAN-1-6_LIQ-SLFR-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtSulfPumpABPress' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-PMP-1-2_DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='YV088401_BB_DEVCTLA_PV' type='status' ext='PV' var='YV088401_BB.DEVCTLA.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='YV088401_AB_DEVCTLA_PV' type='status' ext='PV' var='YV088401_AB.DEVCTLA.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+         <input server='conn3' name='gvalve_YV088402' type='status' ext='PV' var='YV088402.DEVCTLA.OP' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+   <input server='conn3' name='recD081001' type='rec_analog' ext='PV' var='LIC081003.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='recD081003A' type='rec_analog' ext='PV' var='XHN_SLFR-PLNT_RELEASE-AGNT-SYS-1_TK-L' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+       <input server='conn3' name='recD081003B' type='rec_analog' ext='PV' var='  LI081005' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+     <input server='conn3' name='rtPitTemp' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-PIT_TA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+</variables>
+
+

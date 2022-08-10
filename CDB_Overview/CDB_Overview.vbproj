@@ -1,0 +1,804 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5E5BF7C5-9E20-4C9B-BC75-D8173B7AA46D}</ProjectGuid>
+    <ProjectTypeGuids>{60dc8134-eba5-43b8-bcc9-bb4bc16c2548};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CDB_Overview</RootNamespace>
+    <AssemblyName>CDB_Overview</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
+    <PublishUrl>\\pcwpfsv001\share\PI Process Book Folders\SCRIBE\CDB_Overview\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Unc</InstallFrom>
+    <UpdateEnabled>true</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>true</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <UpdateUrl>\\pcwpfsv001\share\PI Process Book Folders\SCRIBE\CDB_Overview\</UpdateUrl>
+    <ProductName>PCCOC 生产总览</ProductName>
+    <PublisherName>PCCOC 自动化团队</PublisherName>
+    <SuiteName>PCCOC ProWorks</SuiteName>
+    <MinimumRequiredVersion>0.0.0.0</MinimumRequiredVersion>
+    <ApplicationRevision>42</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>true</IncrementalBuild>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>CDB_Overview.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <IncrementalBuild>false</IncrementalBuild>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>CDB_Overview.xml</DocumentationFile>
+    <NoWarn>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036,42314</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>8F41397A05800A4D9958FA756837FE5122C4E876</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>CDB_Overview_17_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ops_LX6_icon.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>
+    </StartupObject>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\Windows\assembly\GAC_MSIL\Microsoft.Office.Interop.Excel\15.0.0.0__71e9bce111e9429c\Microsoft.Office.Interop.Excel.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Outlook.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=14.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>..\..\..\Program Files (x86)\Microsoft Visual Studio 11.0\Visual Studio Tools for Office\PIA\Office14\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="MQ">
+      <HintPath>..\..\MQ\bin\Debug\MQ.dll</HintPath>
+    </Reference>
+    <Reference Include="OSIsoft.AFSDK, Version=4.0.0.0, Culture=neutral, PublicKeyToken=6238be57836698e6, processorArchitecture=MSIL" />
+    <Reference Include="ReachFramework" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Printing" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xaml">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="WPFToolkit">
+      <HintPath>..\..\CDBMB\CDBMB\bin\Debug\WPFToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="WPFVisifire.Charts">
+      <HintPath>..\..\CDBMB\CDBMB\bin\Debug\WPFVisifire.Charts.dll</HintPath>
+    </Reference>
+    <Reference Include="Xceed.Wpf.Toolkit">
+      <HintPath>..\..\CDBMB\CDBMB\bin\Debug\Xceed.Wpf.Toolkit.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="Application.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+    <Compile Include="ADDHOC.xaml.vb">
+      <DependentUpon>ADDHOC.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ADDHOC_XY.xaml.vb">
+      <DependentUpon>ADDHOC_XY.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Claus1.xaml.vb">
+      <DependentUpon>Claus1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Claus2.xaml.vb">
+      <DependentUpon>Claus2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Claus3.xaml.vb">
+      <DependentUpon>Claus3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="DataExport.xaml.vb">
+      <DependentUpon>DataExport.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dehy_1.xaml.vb">
+      <DependentUpon>Dehy_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dehy_2.xaml.vb">
+      <DependentUpon>Dehy_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Dehy_3.xaml.vb">
+      <DependentUpon>Dehy_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Granulator.xaml.vb">
+      <DependentUpon>Granulator.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="NGP_profile.xaml.vb">
+      <DependentUpon>NGP_profile.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Progress.xaml.vb">
+      <DependentUpon>Progress.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Reactor.xaml.vb">
+      <DependentUpon>Reactor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scot_1.xaml.vb">
+      <DependentUpon>Scot_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scot_2.xaml.vb">
+      <DependentUpon>Scot_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scot_3.xaml.vb">
+      <DependentUpon>Scot_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scot_reactor_3.xaml.vb">
+      <DependentUpon>Scot_reactor_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scot_stack1.xaml.vb">
+      <DependentUpon>Scot_stack1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scot_stack2.xaml.vb">
+      <DependentUpon>Scot_stack2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Scot_stack3.xaml.vb">
+      <DependentUpon>Scot_stack3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SulfurDelivery.xaml.vb">
+      <DependentUpon>SulfurDelivery.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SulfurRemoval1.xaml.vb">
+      <DependentUpon>SulfurRemoval1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SulfurRemoval2.xaml.vb">
+      <DependentUpon>SulfurRemoval2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SulfurRemoval3.xaml.vb">
+      <DependentUpon>SulfurRemoval3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TEGCompressor1.xaml.vb">
+      <DependentUpon>TEGCompressor1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TEGCompressor2.xaml.vb">
+      <DependentUpon>TEGCompressor2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="TEGCompressor3.xaml.vb">
+      <DependentUpon>TEGCompressor3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="testpu.vb" />
+    <Compile Include="Trunkline.xaml.vb">
+      <DependentUpon>Trunkline.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WellPadA.xaml.vb">
+      <DependentUpon>WellPadA.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="WellPadC.xaml.vb">
+      <DependentUpon>WellPadC.xaml</DependentUpon>
+    </Compile>
+    <Page Include="ADDHOC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="ADDHOC_XY.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Claus1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Claus2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Claus3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="DataExport.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dehy_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dehy_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Dehy_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Granulator.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="MainWindow.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Compile Include="Application.xaml.vb">
+      <DependentUpon>Application.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="BGNumberConverter.vb" />
+    <Compile Include="FormattingConverter.vb" />
+    <Compile Include="MainWindow.xaml.vb">
+      <DependentUpon>MainWindow.xaml</DependentUpon>
+      <SubType>Code</SubType>
+    </Compile>
+    <Page Include="NGP_profile.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Progress.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Reactor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Resources\ArrowSymbols.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Brushes.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Button.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Dark.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\DataGrid.Generic.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\DataGrid.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\Shared.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Resources\TextBox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Scot_1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scot_2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scot_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scot_reactor_3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scot_stack1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scot_stack2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Scot_stack3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SulfurDelivery.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SulfurRemoval1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SulfurRemoval2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SulfurRemoval3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TEGCompressor1.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TEGCompressor2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="TEGCompressor3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Trunkline.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WellPadA.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="WellPadC.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="System.Threading.Tasks" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows" />
+    <Import Include="System.Windows.Controls" />
+    <Import Include="System.Windows.Data" />
+    <Import Include="System.Windows.Documents" />
+    <Import Include="System.Windows.Input" />
+    <Import Include="System.Windows.Shapes" />
+    <Import Include="System.Windows.Media" />
+    <Import Include="System.Windows.Media.Imaging" />
+    <Import Include="System.Windows.Navigation" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWpfExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.WPF.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+    </EmbeddedResource>
+    <None Include="CDB_Overview_10_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_11_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_12_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_13_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_14_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_15_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_16_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_17_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_1_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_2_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_3_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_4_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_5_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_6_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_7_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_TemporaryKey.pfx" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <AppDesigner Include="My Project\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\alarm_1.gif" />
+    <Resource Include="Images\anotTagT.gif" />
+    <Resource Include="Images\arrow-back.png" />
+    <Resource Include="Images\arrow-down.png" />
+    <Resource Include="Images\arrow-forward1.png" />
+    <Resource Include="Images\arrow-up.png" />
+    <Resource Include="Images\arrows-seek-back.png" />
+    <Resource Include="Images\arrows-seek-forward.png" />
+    <Resource Include="Images\arrows-skip-back.png" />
+    <Resource Include="Images\arrows-skip-forward.png" />
+    <Resource Include="Images\arrow_dpwn.png" />
+    <Resource Include="Images\arrow_green_dn.png" />
+    <Resource Include="Images\arrow_red_up.png" />
+    <Resource Include="Images\arrow_up.png" />
+    <Resource Include="Images\BBK.png" />
+    <Resource Include="Images\BlackRight.gif" />
+    <Resource Include="Images\BlackRightArrowButton32Unpress.gif" />
+    <Resource Include="Images\blank.gif" />
+    <Resource Include="Images\blank_dn.gif" />
+    <Resource Include="Images\Button_green_sm.png" />
+    <Resource Include="Images\button_magenta.png" />
+    <Resource Include="Images\Button_magenta_sm.png" />
+    <Resource Include="Images\Button_off_sm.png" />
+    <Resource Include="Images\button_red.png" />
+    <Resource Include="Images\Button_red_sm.png" />
+    <Resource Include="Images\butt_off.png" />
+    <Resource Include="Images\butt_on.png" />
+    <Resource Include="Images\cat.jpg" />
+    <Resource Include="Images\cdb2.png" />
+    <Resource Include="Images\cdb3.png" />
+    <Resource Include="Images\cdb4.png" />
+    <Resource Include="Images\CDBMB.png" />
+    <Resource Include="Images\cdb_new.png" />
+    <Resource Include="Images\chevron.png" />
+    <Resource Include="Images\CPChem.JPG" />
+    <Resource Include="Images\CPL.png" />
+    <Resource Include="Images\CPLView.png" />
+    <Resource Include="Images\CPL_CC.png" />
+    <Resource Include="Images\fearful_cat.ico" />
+    <Resource Include="Images\GSB.jpg" />
+    <Resource Include="Images\help.png" />
+    <Resource Include="Images\m506.png" />
+    <Resource Include="Images\m507.png" />
+    <Resource Include="Images\Mid-con.png" />
+    <Resource Include="Images\Mid-con2.png" />
+    <Resource Include="Images\midcon.png" />
+    <Resource Include="Images\off.jpg" />
+    <Resource Include="Images\on.jpg" />
+    <Resource Include="Images\OpReps.png" />
+    <Resource Include="Images\Opsd.jpg" />
+    <Resource Include="Images\opsd.png" />
+    <Resource Include="Images\ops_console.png" />
+    <Resource Include="Images\pauseout.gif" />
+    <Resource Include="Images\promise.png" />
+    <Resource Include="Images\promise2.png" />
+    <Resource Include="Images\pump_cyan_cyan_nc_48r.gif" />
+    <Resource Include="Images\pump_green_green_nc_48r.gif" />
+    <Resource Include="Images\pump_magenta_magenta_nc_48r.gif" />
+    <Resource Include="Images\pump_red_red_nc_48r.gif" />
+    <Resource Include="Images\SJVBUKern.jpg" />
+    <Resource Include="Images\TANKOOS.png" />
+    <Resource Include="Images\th.jpg" />
+    <Resource Include="Images\thCA4XSCWE.jpg" />
+    <Resource Include="Images\th[4].jpg" />
+    <Resource Include="Images\Trend.gif" />
+    <Resource Include="Images\valve_closed_cnt_hip.png" />
+    <Resource Include="Images\valve_closed_hip.png" />
+    <Resource Include="Images\valve_close_hip.png" />
+    <Resource Include="Images\valve_open_cnt_hip.png" />
+    <Resource Include="Images\valve_open_hip.png" />
+    <Resource Include="Images\wella.png" />
+    <Resource Include="Images\WEST.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\display_aor.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\VALVEs\valve_cyan_32_right_down.gif" />
+    <Resource Include="Images\VALVEs\valve_cyan_32_right_up.gif" />
+    <Resource Include="Images\VALVEs\valve_cyan_32_up_down.gif" />
+    <Resource Include="Images\VALVEs\valve_cyan_32_up_up.gif" />
+    <Resource Include="Images\VALVEs\valve_green_32_right_down.gif" />
+    <Resource Include="Images\VALVEs\valve_green_32_right_up.gif" />
+    <Resource Include="Images\VALVEs\valve_green_32_up_down.gif" />
+    <Resource Include="Images\VALVEs\valve_green_32_up_up.gif" />
+    <Resource Include="Images\VALVEs\valve_magenta_32_right_down.gif" />
+    <Resource Include="Images\VALVEs\valve_magenta_32_right_up.gif" />
+    <Resource Include="Images\VALVEs\valve_magenta_32_up_down.gif" />
+    <Resource Include="Images\VALVEs\valve_magenta_32_up_up.gif" />
+    <Resource Include="Images\VALVEs\valve_red_32_right_down.gif" />
+    <Resource Include="Images\VALVEs\valve_red_32_right_up.gif" />
+    <Resource Include="Images\VALVEs\valve_red_32_up_down.gif" />
+    <Resource Include="Images\VALVEs\valve_red_32_up_up.bmp" />
+    <Resource Include="Images\VALVEs\valve_red_32_up_up.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images_cus\check.gif" />
+    <Resource Include="Images_cus\check_cls.gif" />
+    <Resource Include="Images_cus\check_opn.gif" />
+    <Resource Include="Images_cus\elbow.png" />
+    <Resource Include="Images_cus\elbow1.png" />
+    <Resource Include="Images_cus\elbow_3.png" />
+    <Resource Include="Images_cus\launcher.gif" />
+    <Resource Include="Images_cus\node.GIF" />
+    <Resource Include="Images_cus\node1.png" />
+    <Resource Include="Images_cus\pump.gif" />
+    <Resource Include="Images_cus\pump_off.gif" />
+    <Resource Include="Images_cus\pump_on.gif" />
+    <Resource Include="Images_cus\rec.png" />
+    <Resource Include="Images_cus\rec1.png" />
+    <Resource Include="Images_cus\receiver.gif" />
+    <Resource Include="Images_cus\recfor2.png" />
+    <Resource Include="Images_cus\recfor3.png" />
+    <Resource Include="Images_cus\rect1.png" />
+    <Resource Include="Images_cus\rect2.png" />
+    <Resource Include="Images_cus\rect3.png" />
+    <Resource Include="Images_cus\rect4.png" />
+    <Resource Include="Images_cus\rect5.png" />
+    <Resource Include="Images_cus\rect6.png" />
+    <Resource Include="Images_cus\valman.gif" />
+    <Resource Include="Images_cus\valman_cls.gif" />
+    <Resource Include="Images_cus\valman_opn.gif" />
+    <Resource Include="Images_cus\valman_trav.gif" />
+    <Resource Include="Images_cus\valve.gif" />
+    <Resource Include="Images_cus\valve_cls.gif" />
+    <Resource Include="Images_cus\valve_opn.gif" />
+    <Resource Include="Images_cus\valve_trav.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\staticSymbols\checkvalve_32_down.gif" />
+    <Resource Include="Images\staticSymbols\checkvalve_32_left.gif" />
+    <Resource Include="Images\staticSymbols\checkvalve_32_right.gif" />
+    <Resource Include="Images\staticSymbols\checkvalve_32_up.gif" />
+    <Resource Include="Images\staticSymbols\comp_red_48_right_up.gif" />
+    <Resource Include="Images\staticSymbols\drain_32.gif" />
+    <Resource Include="Images\staticSymbols\meter_32.gif" />
+    <Resource Include="Images\staticSymbols\pipeend_1_32.gif" />
+    <Resource Include="Images\staticSymbols\pipeend_2_32.gif" />
+    <Resource Include="Images\staticSymbols\pipeend_3_32.gif" />
+    <Resource Include="Images\staticSymbols\pipeend_4_32.gif" />
+    <Resource Include="Images\staticSymbols\Plant1.GIF" />
+    <Resource Include="Images\staticSymbols\plm_meter_32.GIF" />
+    <Resource Include="Images\staticSymbols\pump_32_left.gif" />
+    <Resource Include="Images\staticSymbols\pump_32_right.gif" />
+    <Resource Include="Images\staticSymbols\pump_48_left.gif" />
+    <Resource Include="Images\staticSymbols\pump_48_right.gif" />
+    <Resource Include="Images\staticSymbols\static_controlvalve_horizontal_32.gif" />
+    <Resource Include="Images\staticSymbols\static_controlvalve_vertical_32.gif" />
+    <Resource Include="Images\staticSymbols\static_valve_2waydr_32.GIF" />
+    <Resource Include="Images\staticSymbols\static_valve_4way_32.GIF" />
+    <Resource Include="Images\staticSymbols\static_valve_horizontal_32.gif" />
+    <Resource Include="Images\staticSymbols\static_valve_vertical_32.gif" />
+    <Resource Include="Images\staticSymbols\strainer1_grey_32_nc.gif" />
+    <Resource Include="Images\staticSymbols\strainer1_red_32_nc.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Logo.jpg" />
+    <Resource Include="Images\weel.png" />
+    <Resource Include="Images\conv.png" />
+    <Resource Include="Images\wheel.png" />
+    <Resource Include="Images\pump_run_hip.png" />
+    <Resource Include="Images\pump_stop_hip.png" />
+    <Resource Include="Images\pump_error_hip.png" />
+    <Resource Include="Images\wheel_bold.png" />
+    <Resource Include="Images\pellet.png" />
+    <Resource Include="Images\wheel_bold_on.png" />
+    <Resource Include="Images\backComp.PNG" />
+    <Resource Include="Images\vessel.png" />
+    <Resource Include="Images\turbine.png" />
+    <Resource Include="Images\heat.png" />
+    <Resource Include="Images\vessel_a.png" />
+    <Resource Include="Images\heat_a.png" />
+    <Resource Include="Images\anotDQError.gif" />
+    <Resource Include="Images\sulfur_removal.PNG" />
+    <Resource Include="Images\vessel_b.png" />
+    <Resource Include="Images\pump_stop_hip_left.png" />
+    <Resource Include="Images\pump_run_hip_left.png" />
+    <Resource Include="Images\pump_blank.png" />
+    <Resource Include="Images\pump_blank1.png" />
+    <Resource Include="favicon.ico" />
+    <Resource Include="Images\clause.PNG" />
+    <Resource Include="Images\condenser.png" />
+    <Resource Include="furn.png" />
+    <Resource Include="Images\furn.png" />
+    <Resource Include="Images\scot.PNG" />
+    <Resource Include="stack.jpg" />
+    <Resource Include="Images\stack.jpg" />
+    <Resource Include="Images\edit_i.png" />
+    <Resource Include="Images\error_icon.gif" />
+    <Resource Include="Images\greenpaw16.gif" />
+    <Resource Include="Images_cus\help.png" />
+    <Resource Include="Images\incin.png" />
+    <Resource Include="Images\reactor.png" />
+    <Resource Include="Images\fan.png" />
+    <Resource Include="Images\fan_on.png" />
+    <Resource Include="Images\chart.png" />
+    <Resource Include="Images\season.png" />
+    <Resource Include="Images\season_both.png" />
+    <Resource Include="Images\rooster.png" />
+    <Resource Include="Images\rooster1.png" />
+    <Resource Include="Images\rooster2.png" />
+    <Resource Include="Images\do1.png" />
+    <Content Include="HTML\Logo.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="Images\trend.png" />
+    <Resource Include="Images\trend_1.png" />
+    <Resource Include="Images\CDB_logo2.png" />
+    <Resource Include="Images\otov.png" />
+    <Resource Include="Images\happy2018.png" />
+    <Resource Include="Images\man1.png" />
+    <Resource Include="Images\print1.png" />
+    <Resource Include="Images\save.png" />
+    <Resource Include="Images\reactor_temp.png" />
+    <Resource Include="Images\reactor_blank.png" />
+    <Resource Include="Images\absorber.png" />
+    <Resource Include="Images\absorber_grid.png" />
+    <Resource Include="Images\control_auto.png" />
+    <Resource Include="Images\control_cas.png" />
+    <Resource Include="Images\control_error.png" />
+    <Resource Include="Images\control_man.png" />
+    <Resource Include="Images\pig.png" />
+    <Resource Include="ops_LX6_icon.ico" />
+    <Resource Include="Images\logoPCCOC.png" />
+    <Resource Include="Images\70th1.png" />
+    <Resource Include="Images\70th2.png" />
+    <Resource Include="Images\PCCOC.png" />
+    <Resource Include="Images\eductor.png" />
+    <Resource Include="Images\PCCOC01.png" />
+    <Content Include="XML\CDB_Production_tree.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Dehy_3_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Dehy_2_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Dehy_1_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\NGP_Profile_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Resource Include="XML\Operations_map - Copy.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Content Include="XML\Scot_reactor_3_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Scot_3_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Scot_2_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Scot_1_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Reactor_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Scot_stack3_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Scot_stack2_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Scot_stack1_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Claus3_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Claus2_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Claus1_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\WellPadC_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\WellPadA_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\SulfurRemoval3_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\SulfurRemoval2_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\SulfurRemoval1_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\TEGCompressor3_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\TEGCompressor2_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\TEGCompressor1_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Granulator_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="XML\Operations_map.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="XAML\" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+</Project>

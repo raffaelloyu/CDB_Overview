@@ -1,0 +1,241 @@
+<?xml version="1.0"?>
+<variables>
+
+
+  <input server='conn3' name='txtChartTimer' type='analog' ext='PV' var='MB_GSBGP_TOTAL_WPA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtTI070903_1A' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtTI070903_1B' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='rtTI070903_1C' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='rtTI070904_1A' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtTI070904_1B' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtTI070904_1C' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtTI070929_1A' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-3' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtTI070929_1B' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-3' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtTI070929_1C' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-3' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtTI070930_1A' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-4' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtTI070930_1B' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-4' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtTI070930_1C' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-4' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+       <input server='conn3' name='rtTIC070902_1' type='analog' ext='PV' var='TIC070902_1.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+         <input server='conn3' name='rtTI070905_1' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_GAS-OUTLET-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+           <input server='conn3' name='rtPDI070905_1' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_DP' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtDt_0_11' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-1.PV;TIC070902_1.DACA.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+              <input server='conn3' name='rtDt_0_12' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-2.PV;TIC070902_1.DACA.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                <input server='conn3' name='rtDt_0_13' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-3.PV;TIC070902_1.DACA.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                <input server='conn3' name='rtDt_0_14' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-4.PV;TIC070902_1.DACA.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+              <input server='conn3' name='rtDt_11_21' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-1.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                <input server='conn3' name='rtDt_21_31' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-1.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                  <input server='conn3' name='rtDt_31_1' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_GAS-OUTLET-T.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-1.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtDt_12_22' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-2.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                <input server='conn3' name='rtDt_22_32' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-2.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                  <input server='conn3' name='rtDt_32_1' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_GAS-OUTLET-T.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-2.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtDt_13_23' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-3.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                <input server='conn3' name='rtDt_23_33' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-3.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                  <input server='conn3' name='rtDt_33_1' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_GAS-OUTLET-T.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-3.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtDt_14_24' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-4.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-4.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                <input server='conn3' name='rtDt_24_34' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-4.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-4.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+                  <input server='conn3' name='rtDt_34_1' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_GAS-OUTLET-T.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-4.PV' equ='X1-X2' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+  <input server='conn3' name='rtDt_0_avg' type='analog_equ' ext='PV' var='TIC070902_1.DACA.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-4.PV' equ='((X2-X1)+(X3-X1)+(X4-X1)+(X5-X1))*0.25' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtDt_11_avg' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-4.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-4.PV' equ='((X1-X2)+(X3-X4)+(X5-X6)+(X7-X8))*0.25' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtDt_13_avg' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_GAS-OUTLET-T.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_GAS-OUTLET-T.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_GAS-OUTLET-T.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_GAS-OUTLET-T.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-4.PV' equ='((X1-X2)+(X3-X4)+(X5-X6)+(X7-X8))*0.25' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtDt_12_avg' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-4.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-4.PV' equ='((X1-X2)+(X3-X4)+(X5-X6)+(X7-X8))*0.25' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='rtT_TOP_avg' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_TOP-T-4.PV' equ='(X1+X2+X3+X4)/4' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtT_MIDD_avg' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_MIDD-T-4.PV' equ='(X1+X2+X3+X4)/4' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='rtT_BTM_avg' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-1.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-2.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-3.PV;XHN_GAS-PLNT_TRN-1_SCOT-REACTR_BTM-T-4.PV' equ='(X1+X2+X3+X4)/4' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+</variables>
+
+

@@ -1,0 +1,1394 @@
+<?xml version="1.0"?>
+<variables>
+
+  <input server='conn3' name='txtChartTimer' type='analog' ext='PV' var='MB_GSBGP_TOTAL_WPA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='txtSO2Flow_total' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_STACK_SO2-ANLYZR-1.PV;FI070971A_1.PV;XHN_GAS-PLNT_TRN-2_STACK_SO2-ANLYZR-1.PV;FI070971A_2.PV;AI070988A_3.PV;FI070971A_3.PV' equ='((X1*X2)+(X3*X4)+(X5*X6))*0.0036' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+
+     <input server='conn3' name='txtChartTimer' type='analog' ext='PV' var='MB_GSBGP_TOTAL_WPA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='imgWPA_lj11' type='status_analog' ext='PV' var='XHN_WP-A_LJ-11H_PRIMARY-CHK-VLV-CTRL.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='imgWPA_lj12' type='status_analog' ext='PV' var='XHN_WP-A_LJ-12H_PRIMARY-CHK-VLV-CTRL.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+    <input server='conn3' name='imgWPA_lj13' type='status_analog' ext='PV' var='XHN_WP-A_LJ-13H_PRIMARY-CHK-VLV-CTRL.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='imgWPC_lj14' type='status_analog' ext='PV' var='XHN_WP-C_LJ-14_PRIMARY-CHK-VLV-CTRL.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='imgWPC_lj15' type='status_analog' ext='PV' var='XHN_WP-C_LJ-15_PRIMARY-CHK-VLV-CTRL.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='imgWPC_lj20' type='status_analog' ext='PV' var='XHN_WP-C_LJ-20_PRIMARY-CHK-VLV-CTRL.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+
+  <input server='conn3' name='imgTEG1' type='status_analog' ext='PV' var='FIC020704_1.DACA.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='imgTEG2' type='status_analog' ext='PV' var='FIC020704_2.DACA.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='imgTEG3' type='status_analog' ext='PV' var='FIC020704_3.DACA.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+  <input server='conn3' name='imgTrain1' type='status_analog' ext='PV' var='FIC070602_1.DACA.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='imgTrain2' type='status_analog' ext='PV' var='FIC070602_2.DACA.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='imgTrain3' type='status_analog' ext='PV' var='FIC070602_3.DACA.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+  <input server='conn3' name='rtLJ11H_cnt1' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_PRIMARY-CHK-VLV-CTRL' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ11H_cnt2' type='analog' ext='OP' var='XHN_WP-A_LJ-11H_SEC-CHK-VLV-UPSTRM-PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ12H_cnt1' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_PRIMARY-CHK-VLV-CTRL' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ12H_cnt2' type='analog' ext='OP' var='XHN_WP-A_LJ-12H_SEC-CHK-VLV-UPSTRM-PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtLJ13H_cnt1' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_PRIMARY-CHK-VLV-CTRL' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ13H_cnt2' type='analog' ext='OP' var='XHN_WP-A_LJ-13H_SEC-CHK-VLV-UPSTRM-PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtLJ14_cnt1' type='analog' ext='PV' var='XHN_WP-C_LJ-14_PRIMARY-CHK-VLV-CTRL' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  <input server='conn3' name='TI050101' type='analog' ext='PV' var='TI050101' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  <input server='conn3' name='TI050111' type='analog' ext='PV' var='TI050111' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  <input server='conn3' name='TI050121' type='analog' ext='PV' var='TI050121' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  <input server='conn3' name='TI040101' type='analog' ext='PV' var='TI040101' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  <input server='conn3' name='TI040111' type='analog' ext='PV' var='TI040111' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  <input server='conn3' name='TI040121' type='analog' ext='PV' var='TI040121' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ14_cnt2' type='analog' ext='OP' var='XHN_WP-C_LJ-14_SEC-CHK-VLV-UPSTRM-PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ15_cnt1' type='analog' ext='PV' var='XHN_WP-C_LJ-15_PRIMARY-CHK-VLV-CTRL' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ15_cnt2' type='analog' ext='OP' var='XHN_WP-C_LJ-15_SEC-CHK-VLV-UPSTRM-PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtLJ20_cnt1' type='analog' ext='PV' var='XHN_WP-C_LJ-20_PRIMARY-CHK-VLV-CTRL' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ20_cnt2' type='analog' ext='OP' var='XHN_WP-C_LJ-20_SEC-CHK-VLV-UPSTRM-PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtLPFlare1' type='analog' ext='OP' var='XHN_GS-B_ACID-GAS-COMP_SUCT-MANIF-PC-1' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLPFlare2' type='analog' ext='OP' var='XHN_GS-B_FLASH-GAS-MANIF_PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtLJ11H_up' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_TBG-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ11H_t' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_SEC-CHK-VLV-DNSTRM-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+      <input server='conn3' name='rtLJ12H_t' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_SEC-CHK-VLV-DNSTRM-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtLJ13H_t' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_SEC-CHK-VLV-DNSTRM-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ12H_up' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_TBG-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ13H_up' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_TBG-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ14_up' type='analog' ext='PV' var='XHN_WP-C_LJ-14_TBG-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ15_up' type='analog' ext='PV' var='XHN_WP-C_LJ-15_TBG-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ20_up' type='analog' ext='PV' var='XHN_WP-C_LJ-20_TBG-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+      <input server='conn3' name='rtLJ11H_fl' type='analog' ext='PV' var='WPA_LJ_11H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ12H_fl' type='analog' ext='PV' var='WPA_LJ_12H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ13H_fl' type='analog' ext='PV' var='WPA_LJ_13H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+      <input server='conn3' name='rtLJ11H_mid' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_PRIMARY-CHK-VLV-DNSTRM-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ12H_mid' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_PRIMARY-CHK-VLV-DNSTRM-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ13H_mid' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_PRIMARY-CHK-VLV-DNSTRM-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+        <input server='conn3' name='rtLJ14_mid' type='analog' ext='PV' var='XHN_WP-C_LJ-14_PRIMARY-CHK-VLV-DNSTRM-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtLJ15_mid' type='analog' ext='PV' var='XHN_WP-C_LJ-15_PRIMARY-CHK-VLV-DNSTRM-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtLJ20_mid' type='analog' ext='PV' var='XHN_WP-C_LJ-20_PRIMARY-CHK-VLV-DNSTRM-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+<input server='conn3' name='rtLJ11H_dn' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_SEC-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtLJ12H_dn' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_SEC-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtLJ13H_dn' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_SEC-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='gdsvalve_YV040401' type='status' ext='ST' var='XHN_WP-A_PIG-LAUNCHR_GAS-OUTLET-VLV-3.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+        <input server='conn3' name='gdsvalve_YV020403' type='status' ext='ST' var='XHN_GS-B_PIG-RCVR-1_GAS-INLET-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='gdsvalve_YV050401' type='status' ext='ST' var='XHN_WP-C_PIG-LAUNCHR_GAS-OUTLET-VLV-3.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+        <input server='conn3' name='gdsvalve_YV020404' type='status' ext='ST' var='XHN_GS-B_PIG-RCVR-2_GAS-INLET-VLV.st' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+       <input server='conn3' name='gdsvalve_YV020707_1' type='status' ext='PV' var='YV020707_1.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsvalve_YV020707_2' type='status' ext='PV' var='YV020707_2.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='gdsvalve_YV020707_3' type='status' ext='PV' var='YV020707_3.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+   <input server='conn3' name='rtTEG1_f' type='analog' ext='PV' var='FIC020704_1.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtTEG1_p' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-1_STG-5-DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+    <input server='conn3' name='rtTEG1_t' type='analog' ext='PV' var='TIC020704_1.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtTEG2_f' type='analog' ext='PV' var='FIC020704_2.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtTEG2_p' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-5-DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+    <input server='conn3' name='rtTEG2_t' type='analog' ext='PV' var='TIC020704_2.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtTEG3_f' type='analog' ext='PV' var='FIC020704_3.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtTEG3_p' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-3_STG-5-DISCH-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+    <input server='conn3' name='rtTEG3_t' type='analog' ext='PV' var='TIC020704_3.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+      <input server='conn3' name='gdsvalve_YV370501' type='status' ext='PV' var='YV370501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='gdsvalve_YV110501' type='status' ext='PV' var='ZSO110501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+ 
+ <input server='conn3' name='gdsvalve_YV320501' type='status' ext='PV' var='YV320501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+  <input server='conn3' name='gdsvalve_YV330501' type='status' ext='PV' var='YV330501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+  <input server='conn3' name='gdsvalve_YV340501' type='status' ext='PV' var='YV340501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gdsvalve_YV120501' type='status' ext='PV' var='ZSO120501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='gdsvalve_YV350501' type='status' ext='PV' var='YV350501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='gdsvalve_YV130501' type='status' ext='PV' var='ZSO130501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+      <input server='conn3' name='gdsvalve_YV360501' type='status' ext='PV' var='YV360501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='gdsvalve_YV020401' type='status' ext='ST' var='XHN_GS-B_PIG-LAUNCHR_GAS-OUTLET-VLV-3.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+   <input server='conn3' name='gdsvalve_YV020407' type='status' ext='ST' var='XHN_GS-B_PIG-LAUNCHR_GAS-OUTLET-VLV-2.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+    <input server='conn3' name='gdsvalve_YV020406' type='status' ext='ST' var='XHN_GS-B_PIG-LAUNCHR_GAS-OUTLET-VLV-1.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='gdsvalve_YV020405' type='status' ext='ST' var='XHN_GS-B_PIG-LAUNCHR_BYP-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='gdsvalve_YV071205' type='status' ext='ST' var='XHN_GAS-PLNT_PIG-RCVR-1_GAS-INLET-VLV-2.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='gdsvalve_YV071206' type='status' ext='ST' var='XHN_GAS-PLNT_PIG-RCVR-1_GAS-INLET-VLV-3.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='gdsvalve_YV071207' type='status' ext='ST' var='XHN_GAS-PLNT_PIG-RCVR-1_BYP-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+        <input server='conn3' name='gdsvalve_YV370501' type='status' ext='PV' var='YV370501.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+   <input server='conn3' name='gdsvalve_XY071201_A' type='status' ext='ST' var='XHN_GAS-PLNT_PIG-RCVR-1_GAS-INLET-VLV-1.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtGP1_f' type='analog' ext='PV' var='FIC070602_1.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtGP1_f_calc' hihi='' type='analog_equ' ext='PV' var='' equ='(X1*36.02659+86.5)+(X2*36.02659+86.5)+(X3*36.02659+86.5)+(X4*36.02659+86.5)+(X5*36.02659+86.5)+(X6*36.02659+86.5)+(X7*36.02659+86.5)+(X8*36.02659+86.5)+(X9*0.5607+8.01)' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtGP1_p' type='analog' ext='PV' var='PIC070602_1.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtGP2_f' type='analog' ext='PV' var='FIC070602_2.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtGP2_p' type='analog' ext='PV' var='PIC070602_2.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtGP3_f' type='analog' ext='PV' var='FIC070602_3.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+    <input server='conn3' name='rtGP3_p' type='analog' ext='PV' var='PIC070602_3.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+      <input server='conn3' name='rtFI070604_1' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_WET-TREAT-GAS-KO-DRUM_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtFI070604_2' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_WET-TREAT-GAS-KO-DRUM_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtFI070604_3' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-3_WET-TREAT-GAS-KO-DRUM_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+          <input server='conn3' name='rtFI070612_1' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_RFLUX-DRUM_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtAI070651_1' type='analog' ext='PV' var='AI070651_1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtAI070651_2' type='analog' ext='PV' var='AI070651_2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+              <input server='conn3' name='rtAI070651_3' type='analog' ext='PV' var='AI070651_3' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+              <input server='conn3' name='rtAI070751_1B' type='analog' ext='PV' var='AI070751_1B' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+              <input server='conn3' name='rtAI070751_2B' type='analog' ext='PV' var='AI070751_2B' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+             <input server='conn3' name='rtAI070751_3B' type='analog' ext='PV' var='AI070751_3B' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtFI070612_2' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_RFLUX-DRUM_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtFI070612_3' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-3_RFLUX-DRUM_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtFI070605_1' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_FLASH-GAS-ABSORBR_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtFI070605_2' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_FLASH-GAS-ABSORBR_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtFI070605_3' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-3_FLASH-GAS-ABSORBR_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='gdsvalve_YV070601_1' type='status' ext='PV' var='YV070601_1.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+         <input server='conn3' name='gdsvalve_YV070601_2' type='status' ext='PV' var='YV070601_2.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+         <input server='conn3' name='gdsvalve_YV070601_3' type='status' ext='PV' var='YV070601_3.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='gdsvalve_YV071207' type='status' ext='ST' var='XHN_GAS-PLNT_PIG-RCVR-1_BYP-VLV.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='rtPipeDis' type='analog' ext='PV' var='PI020410' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+   <input server='conn3' name='rtPipeEnd' type='analog' ext='PV' var='PI071216' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtQIL_up' type='analog' ext='PV' var='PI320501' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtQIL_dn' type='analog' ext='PV' var='PI320502' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLAN_up' type='analog' ext='PV' var='PI110501' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLAN_dn' type='analog' ext='PV' var='PI110502' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtLIJ_up' type='analog' ext='PV' var='PI120501' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLIJ_dn' type='analog' ext='PV' var='PI120502' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtZHE_up' type='analog' ext='PV' var='PI130501' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtZHE_dn' type='analog' ext='PV' var='PI130502' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtXINAN_up' type='analog' ext='PV' var='PI330501' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtXINAN_dn' type='analog' ext='PV' var='PI330502' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtDAD_up' type='analog' ext='PV' var='PI340501' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtDAD_dn' type='analog' ext='PV' var='PI340502' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtSHE_up' type='analog' ext='PV' var='PI350501' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtSHE_dn' type='analog' ext='PV' var='PI350502' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='rtXINQ_up' type='analog' ext='PV' var='PI360501' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtXINQ_dn' type='analog' ext='PV' var='PI360502' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='rtLONG_up' type='analog' ext='PV' var='PI370501' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLONG_dn' type='analog' ext='PV' var='PI370502' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='txtTotalWA1' type='analog' ext='PV' var='WPA_GROSS_GAS_EXPORT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+
+        <input server='conn3' name='txtTotalWC1' type='analog' ext='PV' var='WPC_GROSS_GAS_EXPORT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+
+          <input server='conn3' name='txtTotalGSB1' type='analog' ext='PV' var='GSB_GROSS_EXPORT_GAS_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+           <input server='conn3' name='txtTotalGSB2' type='analog' ext='PV' var='FI020401.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='txtTotalGP1' type='analog' ext='PV' var='NGP_GROSS_INLET_GAS_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtFI070701_1' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_PROD-GAS-KO-DRUM_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtFI070701_2' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_PROD-GAS-KO-DRUM_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtFI070701_3' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-3_PROD-GAS-KO-DRUM_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtFI070707_1' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_PROD-GAS-KO-DRUM_TO-FUEL-GAS-SYS-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+      <input server='conn3' name='rtFI070707_2' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_PROD-GAS-KO-DRUM_TO-FUEL-GAS-SYS-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtFI070707_3' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-3_PROD-GAS-KO-DRUM_TO-FUEL-GAS-SYS-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtFI071101' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID-MTR-1_IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtFI071102' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID-MTR-2_IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtFI071103' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID-MTR-3_IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+
+ <input server='conn3' name='rtLJ14_te' type='analog' ext='PV' var='XHN_WP-C_LJ-14_SEC-CHK-VLV-DNSTRM-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtLJ14_fl' type='analog' ext='PV' var='WPC_LJ_14H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtLJ14_dn' type='analog' ext='PV' var='XHN_WP-C_LJ-14_SEC-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='rtLJ15_te' type='analog' ext='PV' var='XHN_WP-C_LJ-15_SEC-CHK-VLV-DNSTRM-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtLJ15_fl' type='analog' ext='PV' var='WPC_LJ_15H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtLJ15_dn' type='analog' ext='PV' var='XHN_WP-C_LJ-15_SEC-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtLJ20_te' type='analog' ext='PV' var='XHN_WP-C_LJ-20_SEC-CHK-VLV-DNSTRM-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtLJ20_fl' type='analog' ext='PV' var='WPC_LJ_20H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtLJ20_dn' type='analog' ext='PV' var='XHN_WP-C_LJ-20_SEC-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='txtTotalCus_d' type='analog' ext='PV' var='NGP_GROSS_SALES_GAS_RATE_MMSCMD_CALC' trend='no' blantag='none' scale="1.0">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='txtTotalCus_d_Copy' type='analog' ext='PE' var='Salesgas_Total_MNm3_onspec' trend='no' blantag='none' scale="1.0">
+    <PE/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='txtTotalCus' type='analog' ext='PV' var='NGP_GROSS_SALES_GAS_RATE_NM3H_CALC' trend='no' blantag='none' scale="1.0">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtPitTemp' type='analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-PIT_T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtTI081001_A' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-1_T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtTI081001_B' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-2_T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtTI081001_C' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-3_T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtTI081001_D' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-4_T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtTI081001_E' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-5_T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtTI081001_F' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-6_T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtTI081001_G' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-7_T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtTI081001_H' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-8_T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtTI081001_I' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-9_T-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='imgWPA' type='status_analog' ext='PV' var='XHN_WP-C_LJ-14_IFRT_CALC' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+
+ <input server='conn3' name='rtLI081001_A' lolo='15' hihi='85' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-1_L-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtLI081001_B' lolo='15' hihi='85' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-2_L-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtLI081001_C' lolo='15' hihi='85' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-3_L-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtLI081001_D' lolo='15' hihi='85' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-4_L-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtLI081001_E' lolo='15' hihi='85' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-5_L-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtLI081001_F' lolo='15' hihi='85' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-6_L-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtLI081001_G' lolo='15' hihi='85' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-7_L-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtLI081001_H' lolo='15' hihi='85' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-8_L-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+ <input server='conn3' name='rtLI081001_I' lolo='15' hihi='85' type='analog' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-9_L-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='recT081001' type='rec_analog' ext='PV' var='XHN_SLFR-PLNT_SLFR-PIT_L' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtSO2AI070988A_1' hihi='960' type='analog' ext='PV' var='AI070988A_1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtSO2AI070988A_2' hihi='960' type='analog' ext='PV' var='AI070988A_2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtSO2AI070988A_3' hihi='960' type='analog' ext='PV' var='AI070988A_3' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+    <input server='conn3' name='rtSO2AI070908_1'  hihi='960' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtSO2AI070908_2' hihi='960' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtSO2AI070908_3' hihi='960' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-3_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+        <input server='conn3' name='rtFI071105' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID_BUYBK-FUEL-GAS-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+          <input server='conn3' name='rtPI071104_A' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID_OUTLET-MANIF-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtPI071104_B' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID_OUTLET-MANIF-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+<input server='conn3' name='rtTEG1_m' type='analog' ext='PV' var='XHN_GS-B_TRN-1_TEG-DEHY-UNIT_GAS-OUTLET-MOIST-ANLYZR' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtTEG2_m' type='analog' ext='PV' var='XHN_GS-B_TRN-2_TEG-DEHY-UNIT_GAS-OUTLET-MOIST-ANLYZR' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtTEG3_m' type='analog' ext='PV' var='XHN_GS-B_TRN-3_TEG-DEHY-UNIT_GAS-OUTLET-MOIST-ANLYZR' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtTI071106' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID_AMB-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+    <input server='conn3' name='rtTI020336' type='analog' ext='PV' var='TI020336.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtTI020346' type='analog' ext='PV' var='TI020346.DACA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+      <input server='conn3' name='rtAI071101_B09' hihi='3' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID-MTR-1_GAS-ANLYS-CO2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+      <input server='conn3' name='rtAI071103_B' hihi='4'  type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID_H2S-ANLYZR-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtXI04_SH073601_04' lolo='10' scale="0.001"  type='analog' ext='PV' var='XHN_GAS-PLNT_NKN-LINE_PHASE-A-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	         <input server='conn3' name='rtXI05_SH073601_04' lolo='10' scale="0.001"  type='analog' ext='PV' var='XHN_GAS-PLNT_NKN-LINE_PHASE-B-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	         <input server='conn3' name='rtXI06_SH073601_04' lolo='10' scale="0.001"  type='analog' ext='PV' var='XHN_GAS-PLNT_NKN-LINE_PHASE-C-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	         <input server='conn3' name='rtXI04_SH073601_08' lolo='10' scale="0.001" type='analog' ext='PV' var='XHN_GAS-PLNT_DGX-LINE_PHASE-A-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	         <input server='conn3' name='rtXI05_SH073601_08' lolo='10' scale="0.001" type='analog' ext='PV' var='XHN_GAS-PLNT_DGX-LINE_PHASE-B-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	 	         <input server='conn3' name='rtXI06_SH073601_08' lolo='10' scale="0.001" type='analog' ext='PV' var='XHN_GAS-PLNT_DGX-LINE_PHASE-C-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+    <input server='conn3' name='rtXI07_SH073601_03' lolo='49.5' type='analog' ext='PV' var='XHN_GAS-PLNT_NKN-LINE_FREQ' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	     <input server='conn3' name='rtXI07_SH073601_09' lolo='49.5' type='analog' ext='PV' var='XHN_GAS-PLNT_DGX-LINE_FREQ' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	 	       <input server='conn3' name='img35Knan' type='status' ext='ST' var='XHN_GAS-PLNT_NKN-LINE_BRKR.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  	       <input server='conn3' name='img35Kdon' type='status' ext='ST' var='XHN_GAS-PLNT_DGX-LINE_BRKR.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    	       <input server='conn3' name='img35brk1' type='status' ext='ST' var='XHN_GAS-PLNT_35KV-SUBSTN-UNIT-1-SUBSTN-10KV-BRKR-1_BRKR.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      	       <input server='conn3' name='imgss01brk' type='status' ext='ST' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-1_35KV-BRKR.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+      	       <input server='conn3' name='imgss02brk' type='status' ext='ST' var='XHN_GAS-PLNT_35KV-SUBSTN-UNIT-2-SUBSTN-10KV-BRKR-1_BRKR.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+    
+      	       <input server='conn3' name='imgss03brk' type='status' ext='ST' var='XHN_GAS-PLNT_35KV-SUBSTN-UNIT-3-SUBSTN-10KV-BRKR-1_BRKR.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+      
+      	       <input server='conn3' name='imgss04brk' type='status' ext='ST' var='XHN_GAS-PLNT_35KV-SUBSTN-UNIT-4-SUBSTN-10KV-BRKR-1_BRKR.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+       
+      	       <input server='conn3' name='imgss04brk400' type='status' ext='ST' var='XL_084001_02B.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+         
+      	       <input server='conn3' name='imgss05brk' type='status' ext='ST' var='XL_084001_03B.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        	       <input server='conn3' name='imgss06brk' type='status' ext='ST' var='XL_084001_11B.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+        	       <input server='conn3' name='imgss07brk' type='status' ext='ST' var='XL_084001_13B.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      	       <input server='conn3' name='img35brk2' type='status' ext='ST' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-2_35KV-BRKR.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  	     <input server='conn3' name='r10kvbusaHz' lolo='49.5' type='analog' ext='PV' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-1_10KV-FREQ' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	   	     <input server='conn3' name='r10kvbusaV_A' scale='0.001' type='analog' ext='PV' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-1_10KV-PHASE-A-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	 	   	     <input server='conn3' name='r10kvbusaV_B' scale='0.001' type='analog' ext='PV' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-1_10KV-PHASE-B-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	 	   	     <input server='conn3' name='r10kvbusaV_C' scale='0.001' type='analog' ext='PV' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-1_10KV-PHASE-C-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	   	     <input server='conn3' name='r10kvbusbHz' lolo='49.5' type='analog' ext='PV' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-2_10KV-FREQ' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	   	     <input server='conn3' name='r10kvbusbV_A' scale='0.001' type='analog' ext='PV' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-2_10KV-PHASE-A-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	 	   	     <input server='conn3' name='r10kvbusbV_B' scale='0.001' type='analog' ext='PV' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-2_10KV-PHASE-B-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+
+	 	   	     <input server='conn3' name='r10kvbusbV_C' scale='0.001' type='analog' ext='PV' var='XHN_GAS-PLNT_35KV-SUBSTN-XFMR-2_10KV-PHASE-C-VOLT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	 </input>
+	 
+	       <input server='conn3' name='txtTank1_inv' hihi='' type='analog_equ' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-1_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-2_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-3_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-5_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-6_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-7_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-8_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-9_L-1.PV;XHN_SLFR-PLNT_SLFR-PIT_L.PV' equ='(X1*36.02659+86.5)+(X2*36.02659+86.5)+(X3*36.02659+86.5)+(X4*36.02659+86.5)+(X5*36.02659+86.5)+(X6*36.02659+86.5)+(X7*36.02659+86.5)+(X8*36.02659+86.5)+(X9*0.5607+8.01)' trend='no' blantag='none' scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+</variables>

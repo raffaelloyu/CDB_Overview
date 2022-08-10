@@ -1,0 +1,1084 @@
+﻿<Window x:Class="TEGCompressor3"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CDB_Overview"
+        mc:Ignorable="d" Background="#FFDED7CE"
+        Title="TEG-3 Acid Gas Compressor" Height="720" Width="1160" >
+
+    <Canvas xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:vc="clr-namespace:Visifire.Charts;assembly=WPFVisifire.Charts" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" Name='mycanvas' HorizontalAlignment='Left' VerticalAlignment='Top'>
+        <Rectangle Height="2" Canvas.Left="472" Fill="Gray" Stroke="Gray" Canvas.Top="292" Width="40" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="256" Fill="Gray" Stroke="Gray" Canvas.Top="140" Width="49" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="436" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="603" Width="54" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle Height="2" Canvas.Left="986" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="382" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="456" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="394" Width="72" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="447" Fill="Gray" Stroke="Gray" Canvas.Top="505" Width="34" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle Height="2" Canvas.Left="285" Fill="Gray" Stroke="Gray" Canvas.Top="533" Width="166"/>
+
+        <Rectangle Height="2" Canvas.Left="266" Fill="Gray" Stroke="Gray" Canvas.Top="343" Width="142" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="712" Fill="Gray" Stroke="Gray" Canvas.Top="361" Width="93"/>
+
+        <Rectangle Height="2" Canvas.Left="836" Fill="Gray" Stroke="Gray" Canvas.Top="293" Width="39" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle Height="2" Canvas.Left="980" Fill="Gray" Stroke="Gray" Canvas.Top="293" Width="39" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Rectangle Height="2" Canvas.Left="1016" Fill="Gray" Stroke="Gray" Canvas.Top="320" Width="47"/>
+        <Rectangle Height="2" Canvas.Left="619" Fill="Gray" Stroke="Gray" Canvas.Top="73" Width="28"/>
+
+        <Rectangle Height="2" Canvas.Left="616" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="164" Width="91" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+
+        <Image x:Name="image" Height="65" Canvas.Left="261" Canvas.Top="58" Width="37" Source="Images/vessel_a.png"/>
+        <Image x:Name="image_Copy" Height="65" Canvas.Left="633" Canvas.Top="58" Width="55" Source="Images/vessel_a.png"/>
+        <Image x:Name="image_Copy1" Height="65" Canvas.Left="465" Canvas.Top="308" Width="55" Source="Images/vessel_a.png"/>
+        <Image x:Name="image_Copy2" Height="65" Canvas.Left="971" Canvas.Top="308" Width="55" Source="Images/vessel_a.png"/>
+        <Image x:Name="image_Copy3" Height="65" Canvas.Left="436" Canvas.Top="519" Width="55" Source="Images/vessel_a.png"/>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_SUCT-VLV.st' Canvas.Left='82' Canvas.Top='54' Width='30' Height='30'  x:Name='gvalve1' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+
+
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_SCRB-DRAIN-VLV.st' Canvas.Left='147' Canvas.Top='147' Width='30' Height='30' x:Name='gvalve2' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-2-SUCT-SCRB-OUTLET-LCV.st' Canvas.Left='585' Canvas.Top='190' Width='30' Height='30'  x:Name='gvalve3' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_SUCT-VLV.st' Canvas.Left='58' Canvas.Top='425' Width='30' Height='30'  x:Name='gvalve4' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top' RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_SDSTRM-VLV.st' Canvas.Left='95' Canvas.Top='231' Width='30' Height='30'  x:Name='gvalve5' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_PURGE-GAS-INLET-VLV.st' Canvas.Left='171' Canvas.Top='425' Width='30' Height='30' x:Name='gvalve6' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-5-SUCT-SCRB-OUTLET-LCV.st' Canvas.Left='279' Canvas.Top='611' Width='30' Height='30'  x:Name='gvalve7' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-4-SUCT-SCRB-OUTLET-LCV.st' Canvas.Left='602' Canvas.Top='411' Width='30' Height='30'  x:Name='gvalve8' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_DISCH-VLV.st' Canvas.Left='776' Canvas.Top='574' Width='30' Height='30'  x:Name='gvalve9' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_BDV-1.st' Canvas.Left='776' Canvas.Top='631' Width='30' Height='30' x:Name='gvalve10' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_BOOST-PMP-MOTOR-CTRL.op' Canvas.Left='222' Canvas.Top='147' Width='30' Height='30'  x:Name='gpump1' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/pump_error_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/pump_stop_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/pump_run_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image Cursor="Hand" Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-3-SUCT-SCRB-OUTLET-LCV.st' Canvas.Left='814' Canvas.Top='375' Width='30' Height='30'  x:Name='gvalve11' Stretch='Fill'  HorizontalAlignment='Left' VerticalAlignment='Top'>
+            <Image.Style>
+                <Style TargetType='{x:Type Image}'>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="error">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/valve_magenta_32_up_up.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="transit">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/VALVEs/VALVE_CYAN_32_UP_UP.gif"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="closed">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_closed_hip.png"/>
+                        </DataTrigger>
+                        <DataTrigger Binding="{Binding XPath=cursta}" Value="open">
+                            <Setter Property="Source" Value="/CDB_Overview;component/Images/valve_open_hip.png"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </Image.Style>
+        </Image>
+        <Image x:Name="image_Copy4" Height="53" Canvas.Left="413" Canvas.Top="64" Width="74" Source="Images/turbine.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Foreground='#FF0B335A' Content="K-020701-3" Canvas.Left="419" Canvas.Top="83" FontSize="12"/>
+        <Rectangle Height="2" Canvas.Left="279" Fill="Gray" Stroke="Gray" Canvas.Top="27" Width="143"/>
+        <Rectangle Height="2" Canvas.Left="264" Fill="Gray" Stroke="Gray" Canvas.Top="42" Width="31" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="402" Fill="Gray" Stroke="Gray" Canvas.Top="46" Width="39" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-1-DP' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='469' Canvas.Top='48' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStageDP1' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="465" Canvas.Top="34">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PDI020751_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich27' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Foreground='#FF0B335A' Canvas.Left="303" Canvas.Top="86" FontSize="12"/>
+        <TextBlock Width="282" x:Name="txtAreaTitle" Foreground="#FF322E2E" Opacity="0.6" TextWrapping="NoWrap" Text="TEG-3 Compression" FontSize="24" FontFamily="Castellar" FontWeight="ExtraBold" TextAlignment="Right" Canvas.Left="842" Canvas.Top="12"/>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-2-DP' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='878' Canvas.Top='90' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStageDP2' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="874" Canvas.Top="76">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PDI020753_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich1' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Image x:Name="image_Copy5" Height="53" Canvas.Left="795" Canvas.Top="64" Width="74" Source="Images/turbine.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Foreground='#FF0B335A' Content="K-020702-3" Canvas.Left="801" Canvas.Top="83" FontSize="12"/>
+        <Rectangle Height="2" Canvas.Left="661" Fill="Gray" Stroke="Gray" Canvas.Top="27" Width="145"/>
+        <Rectangle Height="2" Canvas.Left="786" Fill="Gray" Stroke="Gray" Canvas.Top="46" Width="39" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="645" Fill="Gray" Stroke="Gray" Canvas.Top="42" Width="31" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-1-DISCH-P' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='469' Canvas.Top='158' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStagePDIS1' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="465" Canvas.Top="144">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PI020751_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich2' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-2-DISCH-P' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='869' Canvas.Top='158' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStagePDIS2' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="865" Canvas.Top="144">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PI020753_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich3' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Image x:Name="image_Copy6" Height="21" Canvas.Left="537" Canvas.Top="117" Width="39" Source="Images/heat_a.png" Stretch="Fill"/>
+        <Rectangle Height="2" Canvas.Left="472" Fill="Gray" Stroke="Gray" Canvas.Top="127" Width="65"/>
+        <Rectangle Height="2" Canvas.Left="576" Fill="Gray" Stroke="Gray" Canvas.Top="127" Width="44"/>
+        <Rectangle Height="2" Canvas.Left="592" Fill="Gray" Stroke="Gray" Canvas.Top="100" Width="55" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-1-AFTERCOOLR-TC' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='584' Canvas.Top='158' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStageTDIS1' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="580" Canvas.Top="144">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="TIC020752_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich4' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Rectangle Height="2" Canvas.Left="109" Fill="Gray" Stroke="Gray" Canvas.Top="72" Width="152"/>
+        <Rectangle Height="2" Canvas.Left="177" Fill="Gray" Stroke="Gray" Canvas.Top="164" Width="45"/>
+        <Rectangle Height="2" Canvas.Left="252" Fill="Gray" Stroke="Gray" Canvas.Top="164" Width="30"/>
+        <Image x:Name="image_Copy7" Height="21" Canvas.Left="928" Canvas.Top="117" Width="39" Source="Images/heat_a.png" Stretch="Fill"/>
+        <Rectangle Height="2" Canvas.Left="461" Fill="Gray" Stroke="Gray" Canvas.Top="117" Width="21" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="851" Fill="Gray" Stroke="Gray" Canvas.Top="127" Width="78"/>
+        <Rectangle Height="2" Canvas.Left="967" Fill="Gray" Stroke="Gray" Canvas.Top="127" Width="96"/>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-1-AFTERCOOLR-TC' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='978' Canvas.Top='158' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStageTDIS2' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="974" Canvas.Top="144">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="TIC020752_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich5' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Rectangle Height="2" Canvas.Left="780" Fill="Gray" Stroke="Gray" Canvas.Top="178" Width="143" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="126" Fill="Gray" Stroke="Gray" Canvas.Top="249" Width="726"/>
+        <Rectangle Height="2" Canvas.Left="201" Fill="#FF535252" Stroke="#FFB8B4B4" Canvas.Top="209" Width="460" />
+        <Rectangle Height="2" Canvas.Left="132" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="140" Width="137" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-2-SUCT-P' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='705' Canvas.Top='48' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStagePSUC2' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="701" Canvas.Top="34">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PI020752_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich6' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Rectangle Height="2" Canvas.Left="966" Fill="Gray" Stroke="Gray" Canvas.Top="224" Width="192" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="image_Copy8" Height="53" Canvas.Left="795" Canvas.Top="299" Width="74" Source="Images/turbine.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Foreground='#FF0B335A' Content="K-020703-3" Canvas.Left="801" Canvas.Top="318" FontSize="12"/>
+        <Rectangle Height="2" Canvas.Left="855" Fill="Gray" Stroke="Gray" Canvas.Top="274" Width="145"/>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-3-SUCT-PC' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='898' Canvas.Top='295' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStagePSUC3' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="894" Canvas.Top="281">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PIC020754_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich7' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Image x:Name="image_Copy9" Height="21" Canvas.Left="678" Canvas.Top="350" Width="39" Source="Images/heat_a.png" Stretch="Fill"/>
+        <Rectangle Height="2" Canvas.Left="794" Fill="Gray" Stroke="Gray" Canvas.Top="351" Width="21" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="544" Fill="Gray" Stroke="Gray" Canvas.Top="361" Width="134"/>
+        <Rectangle Height="2" Canvas.Left="524" Fill="Gray" Stroke="Gray" Canvas.Top="342" Width="40" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="511" Fill="Gray" Stroke="Gray" Canvas.Top="323" Width="33"/>
+        <Image x:Name="image_Copy10" Height="53" Canvas.Left="273" Canvas.Top="367" Width="74" Source="Images/turbine.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Foreground='#FF0B335A' Content="K-020704-3" Canvas.Left="279" Canvas.Top="386" FontSize="12"/>
+        <Rectangle Height="2" Canvas.Left="336" Fill="Gray" Stroke="Gray" Canvas.Top="273" Width="156"/>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-4-SUCT-P' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='383' Canvas.Top='295' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStagePSUC4' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="379" Canvas.Top="281">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PI020756_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich8' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Image x:Name="image_Copy11" Height="21" Canvas.Left="308" Canvas.Top="522" Width="39" Source="Images/heat_a.png" Stretch="Fill"/>
+        <Rectangle Height="2" Canvas.Left="220" Fill="Gray" Stroke="Gray" Canvas.Top="470" Width="128" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Image x:Name="image_Copy12" Height="53" Canvas.Left="607" Canvas.Top="527" Width="74" Source="Images/turbine.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-180"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Label Foreground='#FF0B335A' Content="K-020705-3" Canvas.Left="613" Canvas.Top="546" FontSize="12"/>
+        <Rectangle Height="2" Canvas.Left="463" Fill="Gray" Stroke="Gray" Canvas.Top="489" Width="157"/>
+        <Rectangle Height="2" Canvas.Left="599" Fill="Gray" Stroke="Gray" Canvas.Top="509" Width="40" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="626" Fill="Gray" Stroke="Gray" Canvas.Top="608" Width="86" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="670" Fill="Gray" Stroke="Gray" Canvas.Top="593" Width="193"/>
+        <Rectangle Height="2" Canvas.Left="67" Fill="Gray" Stroke="Gray" Canvas.Top="649" Width="802"/>
+        <Rectangle Height="2" Canvas.Left="-30" Fill="Gray" Stroke="Gray" Canvas.Top="550" Width="196" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Fill="Gray" Stroke="Gray" Canvas.Top="448" Width="400" RenderTransformOrigin="0.5,0.5" Canvas.Left="-44">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="-46" Fill="Gray" Stroke="Gray" Canvas.Top="316" Width="228" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="491" Fill="#FFB8B4B4" Stroke="#FFB8B4B4" Canvas.Top="394" Width="507"/>
+        <Rectangle Height="2" Canvas.Left="197" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="631" Width="351"/>
+        <Rectangle Height="2" Canvas.Left="480" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="564" Width="136" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-5-SUCT-P' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='467' Canvas.Top='466' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStagePSUC5' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="463" Canvas.Top="452">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PI020758_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich9' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Rectangle Height="2" Canvas.Left="504" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="438" Width="88" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="491" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="430" Width="572"/>
+        <Rectangle Height="2" Canvas.Left="494" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="322" Width="138" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="546" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="226" Width="34" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="1007" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="375" Width="110" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="12" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="446" Width="372" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="197" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="259" Width="331"/>
+        <Rectangle Height="2" Canvas.Left="495" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="291" Width="64" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="67" Fill="Gray" Stroke="Gray" Canvas.Top="203" Width="58"/>
+        <Rectangle Height="2" Canvas.Left="58" Fill="Gray" Stroke="Gray" Canvas.Top="138" Width="132" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="76" Fill="Gray" Stroke="Gray" Canvas.Top="249" Width="19"/>
+        <Rectangle Height="2" Canvas.Left="39" Fill="Gray" Stroke="Gray" Canvas.Top="249" Width="19"/>
+        <Rectangle Height="2" Canvas.Left="132" Fill="Gray" Stroke="Gray" Canvas.Top="164" Width="18"/>
+        <Rectangle Height="2" Canvas.Left="39" Fill="Gray" Stroke="Gray" Canvas.Top="164" Width="75"/>
+        <Rectangle Height="2" Canvas.Left="39" Fill="Gray" Stroke="Gray" Canvas.Top="72" Width="44"/>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-4-DISCH-P' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='300' Canvas.Top='452' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStagePDIS4' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="296" Canvas.Top="438">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PI020757_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich10' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-3-DP' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='722' Canvas.Top='295' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStageDP3' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="718" Canvas.Top="281">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PDI020755_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich11' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-4-DP' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='230' Canvas.Top='344' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStageDP4' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="226" Canvas.Top="330">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PDI020757_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich12' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-3-AFTERCOOLR-TC' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='589' Canvas.Top='334' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStageTDIS3' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="585" Canvas.Top="320">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="TIC020757_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich13' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-4-AFTERCOOLR-TC' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='360' Canvas.Top='503' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStageTDIS4' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="356" Canvas.Top="489">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="TIC020761_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich14' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-5-DP' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='654' Canvas.Top='502' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStageDP5' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}">
+
+        </TextBox>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="650" Canvas.Top="488">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PDI020759_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+
+            </FlowDocument>
+        </RichTextBox>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-5-DISCH-P' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='700' Canvas.Top='565' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStagePDIS5' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="696" Canvas.Top="551">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PI020759_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich16' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Rectangle Fill="{DynamicResource Arrow21}" Height="24" Canvas.Left="24" Stroke="Transparent"  Canvas.Top="60" Width="34"/>
+        <Rectangle Fill="{DynamicResource Arrow21}" Height="24" Canvas.Left="24" Stroke="Transparent"  Canvas.Top="152" Width="34" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-179.461"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Fill="{DynamicResource Arrow21}" Height="24" Canvas.Left="24" Stroke="Transparent"  Canvas.Top="238" Width="34"/>
+        <Rectangle Fill="{DynamicResource Arrow21}" Height="24" Canvas.Left="862" Stroke="Transparent"  Canvas.Top="582" Width="34"/>
+        <Rectangle Fill="{DynamicResource Arrow21}" Height="24" Canvas.Left="863" Stroke="Transparent"  Canvas.Top="637" Width="34"/>
+        <Label Foreground='#FF0B335A' Content="D-020708-3" Canvas.Left="684" Canvas.Top="89" FontSize="12"/>
+        <Label Foreground='#FF0B335A' Content="D-020710-3" Canvas.Left="404" Canvas.Top="334" FontSize="12"/>
+        <Label Foreground='#FF0B335A' Content="D-020709-3" Canvas.Left="911" Canvas.Top="334" FontSize="12"/>
+        <Label Foreground='#FF0B335A' Content="D-020711-3" Canvas.Left="374" Canvas.Top="546" FontSize="12"/>
+        <Label Foreground='#FF0B335A' Content="HP FLARE" Canvas.Left="847" Canvas.Top="621" FontSize="12" FontWeight="Bold"/>
+        <Label Foreground='#FF0B335A' Content="FILTERS" Canvas.Left="851" Canvas.Top="564" FontSize="12" FontWeight="Bold"/>
+        <Label Foreground='#FF0B335A' Content="WATER HDR" Canvas.Left="24" Canvas.Top="134" FontSize="12" FontWeight="Bold"/>
+        <Label Foreground='#FF0B335A' Content="FLASH" Canvas.Left="24" Canvas.Top="220" FontSize="12" FontWeight="Bold"/>
+        <Label Foreground='#FF0B335A' Content="SUCTION HDR" Canvas.Left="24" Canvas.Top="32" FontSize="12" FontWeight="Bold"/>
+        <TextBox  Panel.ZIndex='1' Tag='XHN_GS-B_ACID-GAS-COMP-3_STG-3-DISCH-P' MinWidth='34' HorizontalAlignment='Right' Canvas.Left='722' Canvas.Top='334' Padding='0' MaxWidth='1000' MaxHeight='40' BorderThickness='0' VerticalAlignment='Top' Width='64' x:Name='rtStagePDIS3' VerticalContentAlignment='Center' FontStretch='Normal' Height='15'  Background='#FFDED7CE' FontWeight='Bold' FontSize='12pt' FontFamily='Arial' TextAlignment='Right' Foreground="{Binding XPath=flag_fg}" Text="{Binding ConverterParameter=\{0:F1\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"/>
+        <RichTextBox BorderBrush="DarkGray" Padding="0,-1,-5,0"  Tag="PI020410" Background="#FFDED7CE" HorizontalAlignment="Left" Height="32" VerticalAlignment="Center" Width="72" Canvas.Left="718" Canvas.Top="320">
+            <FlowDocument >
+                <Paragraph TextAlignment="Right" LineHeight="4">
+                    <Run Text="PI020755_3" FontFamily='ArialNarrow' FontWeight="SemiBold" FontSize='8pt' Foreground="#FF1E1C1C" Background='#FFDED7CE'/>
+                </Paragraph>
+                <Paragraph  x:Name='rtPipeDis_rich17' TextAlignment="Center" LineHeight="8" LineStackingStrategy="BlockLineHeight">
+                    <Run Text="{Binding ConverterParameter=\{0:F2\}, Converter={StaticResource FormattingConverter}, Mode=Default, XPath=PV}"  Foreground="{Binding XPath=flag_fg}" FontSize="18" FontWeight="Bold"/>
+                </Paragraph>
+            </FlowDocument>
+        </RichTextBox>
+        <Label Foreground='#FF0B335A' Content="DP" Canvas.Left="496" Canvas.Top="17" FontSize="12"/>
+        <Label Foreground='#FF0B335A' Content="DP" Canvas.Left="904" Canvas.Top="59" FontSize="12"/>
+        <Label Foreground='#FF0B335A' Content="DP" Canvas.Left="748" Canvas.Top="265" FontSize="12"/>
+        <Label Foreground='#FF0B335A' Content="DP" Canvas.Left="258" Canvas.Top="314" FontSize="12"/>
+        <Label Foreground='#FF0B335A' Content="DP" Canvas.Left="678" Canvas.Top="471" FontSize="12"/>
+        <Rectangle Height="8" Canvas.Left="147" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="60" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="336" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="14" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="726" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="14" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="1062" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="192" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-270"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="42" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="335" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-450.7"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="817" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="581" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="817" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="633" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="235" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="479" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="911" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="261" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-540"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="311" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="311" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="126" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="335" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-90.872"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="8" Canvas.Left="635" Stretch="Fill" Fill="{DynamicResource Arrow12}"  Canvas.Top="236" Width="26" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-360"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle Height="2" Canvas.Left="12" Fill="Gray" Stroke="#FFB8B4B4" Canvas.Top="446" Width="372" RenderTransformOrigin="0.5,0.5">
+            <Rectangle.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="90"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Rectangle.RenderTransform>
+        </Rectangle>
+        <Rectangle   Fill="Gray"/>
+        <Label Content="Pressure Increase per Stage" Foreground='#FF0B335A' Canvas.Left="950" Canvas.Top="440" FontSize="12" Height="16" Width="163"/>
+        <TextBox x:Name="txtChartTimer" Tag='' Height="23" TextWrapping="Wrap" Text="TextBox" Width="120" Canvas.Left="-175" Canvas.Top="86"/>
+
+    </Canvas>
+</Window>

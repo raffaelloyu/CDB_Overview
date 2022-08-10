@@ -1,0 +1,433 @@
+<?xml version="1.0"?>
+<variables>
+
+
+     <input server='conn3' name='txtChartTimer' type='analog' ext='PV' var='MB_GSBGP_TOTAL_WPA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='imgWPA_lj11' type='status_analog' ext='PV' var='XHN_WP-A_LJ-11H_PRIMARY-CHK-VLV-CTRL.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='imgWPA_lj12' type='status_analog' ext='PV' var='XHN_WP-A_LJ-12H_PRIMARY-CHK-VLV-CTRL.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+    <input server='conn3' name='imgWPA_lj13' type='status_analog' ext='PV' var='XHN_WP-A_LJ-13H_PRIMARY-CHK-VLV-CTRL.PV' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+
+  <input server='conn3' name='rtLJ11H_cnt1' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_PRIMARY-CHK-VLV-CTRL' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ11H_cnt2' type='analog' ext='OP' var='XHN_WP-A_LJ-11H_SEC-CHK-VLV-UPSTRM-PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ12H_cnt1' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_PRIMARY-CHK-VLV-CTRL' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ12H_cnt2' type='analog' ext='OP' var='XHN_WP-A_LJ-12H_SEC-CHK-VLV-UPSTRM-PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtLJ13H_cnt1' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_PRIMARY-CHK-VLV-CTRL' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+    <input server='conn3' name='rtLJ13H_cnt2' type='analog' ext='OP' var='XHN_WP-A_LJ-13H_SEC-CHK-VLV-UPSTRM-PC' trend='no' blantag='none'>
+    <OP/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+
+  <input server='conn3' name='rtLJ11H_up' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_TBG-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ11H_t' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_SEC-CHK-VLV-DNSTRM-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+      <input server='conn3' name='rtLJ12H_t' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_SEC-CHK-VLV-DNSTRM-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtLJ13H_t' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_SEC-CHK-VLV-DNSTRM-TC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ12H_up' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_TBG-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ13H_up' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_TBG-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+
+      <input server='conn3' name='rtLJ11H_fl' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ12H_fl' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ13H_fl' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+      <input server='conn3' name='rtLJ11H_fl_C' type='analog' ext='PV' var='WPA_LJ_11H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ12H_fl_C' type='analog' ext='PV' var='WPA_LJ_12H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ13H_fl_C' type='analog' ext='PV' var='WPA_LJ_13H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtLJ14_fl' type='analog' ext='PV' var='XHN_WP-C_LJ-14_IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtLJ15_fl' type='analog' ext='PV' var='XHN_WP-C_LJ-15_IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtLJ20_fl' type='analog' ext='PV' var='XHN_WP-C_LJ-20_IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+              <input server='conn3' name='rtLJ14_fl_C' type='analog' ext='PV' var='XHN_WP-C_LJ-14_IFRT_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+            <input server='conn3' name='rtLJ15_fl_C' type='analog' ext='PV' var='XHN_WP-C_LJ-15_IFRT_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+     <input server='conn3' name='rtLJ20_fl_C' type='analog' ext='PV' var='XHN_WP-C_LJ-20_IFRT_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+      <input server='conn3' name='rtLJ11H_mid' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_PRIMARY-CHK-VLV-DNSTRM-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ12H_mid' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_PRIMARY-CHK-VLV-DNSTRM-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        <input server='conn3' name='rtLJ13H_mid' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_PRIMARY-CHK-VLV-DNSTRM-P-1' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+<input server='conn3' name='rtLJ11H_dn' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_SEC-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtLJ12H_dn' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_SEC-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='rtLJ13H_dn' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_SEC-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve1' type='status' ext='ST' var='XHN_WP-A_LJ-11H_SSV-1.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve2' type='status' ext='ST' var='XHN_WP-A_LJ-11H_SSV-2.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve3' type='status' ext='ST' var='XHN_WP-A_LJ-11H_JKT-HEATR-BURNER_FUEL-GAS-INLET-VLV-1.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve4' type='status' ext='ST' var='XHN_WP-A_LJ-11H_JKT-HEATR-BURNER_FUEL-GAS-INLET-VLV-2.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='gvalve5' type='status' ext='ST' var='XHN_WP-A_LJ-12H_SSV-1.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve6' type='status' ext='ST' var='XHN_WP-A_LJ-12H_SSV-2.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve7' type='status' ext='ST' var='XHN_WP-A_LJ-12H_JKT-HEATR-BURNER_FUEL-GAS-INLET-VLV-1.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve8' type='status' ext='ST' var='XHN_WP-A_LJ-12H_JKT-HEATR-BURNER_FUEL-GAS-INLET-VLV-2.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='gvalve9' type='status' ext='ST' var='XHN_WP-A_LJ-12H_SSV-1.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve10' type='status' ext='ST' var='XHN_WP-A_LJ-13H_SSV-2.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve11' type='status' ext='ST' var='XHN_WP-A_LJ-13H_JKT-HEATR-BURNER_FUEL-GAS-INLET-VLV-1.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  <input server='conn3' name='gvalve12' type='status' ext='ST' var='XHN_WP-A_LJ-13H_JKT-HEATR-BURNER_FUEL-GAS-INLET-VLV-2.ST' trend='no' blantag='none'>
+    <cursta/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+  <input server='conn3' name='rtLJ11H_mitT' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_CHEM-INJ-MANIF-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ12H_mitT' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_CHEM-INJ-MANIF-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    <input server='conn3' name='rtLJ13H_mitT' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_CHEM-INJ-MANIF-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+      <input server='conn3' name='rtLJ11H_midP' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_CHEM-INJ-MANIF-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	</input>
+	      <input server='conn3' name='rtLJ12H_midP' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_CHEM-INJ-MANIF-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+	</input>
+
+	      <input server='conn3' name='rtLJ13H_midP' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_CHEM-INJ-MANIF-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+  	      <input server='conn3' name='rtLJ11H_upT' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_PRIMARY-CHK-VLV-DNSTRM-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    	      <input server='conn3' name='rtLJ12H_upT' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_PRIMARY-CHK-VLV-DNSTRM-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    	      <input server='conn3' name='rtLJ13H_upT' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_PRIMARY-CHK-VLV-DNSTRM-T' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+  
+    	      <input server='conn3' name='rtLJ11H_mid2' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_PRIMARY-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    	      <input server='conn3' name='rtLJ12H_mid2' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_PRIMARY-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    	      <input server='conn3' name='rtLJ13H_mid2' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_PRIMARY-CHK-VLV-DNSTRM-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+      	      <input server='conn3' name='rtLJ11H_flgas' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_JKT-HEATR-BURNER_FUEL-GAS-INLET-FC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    	      <input server='conn3' name='rtLJ12H_flgas' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_JKT-HEATR-BURNER_FUEL-GAS-INLET-FC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    	      <input server='conn3' name='rtLJ13H_flgas' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_JKT-HEATR-BURNER_FUEL-GAS-INLET-FC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+
+   <input server='conn3' name='rtLJ11H_pgas' type='analog' ext='PV' var='XHN_WP-A_LJ-11H_JKT-HEATR-BURNER_FUEL-GAS-INLET-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    	      <input server='conn3' name='rtLJ12H_pgas' type='analog' ext='PV' var='XHN_WP-A_LJ-12H_JKT-HEATR-BURNER_FUEL-GAS-INLET-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+    	      <input server='conn3' name='rtLJ13H_pgas' type='analog' ext='PV' var='XHN_WP-A_LJ-13H_JKT-HEATR-BURNER_FUEL-GAS-INLET-P' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+  
+
+      	      <input server='conn3' name='rtTest_gfl' type='analog' ext='PV' var='XHN_WP-A_TEST-SEP_GAS-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        	      <input server='conn3' name='rtTest_lfl' type='analog' ext='PV' var='XHN_WP-A_TEST-SEP_LIQ-OUTLET-IFRT' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+        	      <input server='conn3' name='rtTest_gp' type='analog' ext='PV' var='XHN_WP-A_TEST-SEP_BYP-P-2' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+ <input server='conn3' name='txtTotalWA1' type='analog' ext='PV' var='MB_GSBGP_TOTAL_WPA' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+  </input>
+
+   <input server='conn3' name='txtTotalWA1_C' type='analog' ext='PV' var='MB_GSBGP_TOTAL_WPA_CALC' trend='no' blantag='none'>
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
+</variables>

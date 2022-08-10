@@ -1,0 +1,481 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AF>
+  <AFElement>
+    <Name>
+    </Name>
+    <Shared id="">
+      <B2b>
+        <cai id="" desc="" />
+        <cai id="" desc="" />
+      </B2b>
+    </Shared>
+  </AFElement>
+  <AFElement>
+    <Name>Asset Manager</Name>
+    <Shared id="yosska">
+      <B2b>
+        <cai id="yosska" desc="Kenneth Yoss" />
+        <cai id="" desc="" />
+      </B2b>
+    </Shared>
+    <AFElement>
+      <Name>Production Manager</Name>
+      <Shared id="cdbopspm">
+        <B2b>
+          <cai id="rglr" desc="Raymond Lee" />
+          <cai id="gpwa" desc="Greg Watowich" />
+        </B2b>
+      </Shared>
+      <AFElement>
+        <Name>Automation Superintendent</Name>
+        <Shared id="cdbats">
+          <B2b>
+            <cai id="bzye" desc="Andre Alexander" />
+            <cai id="ejti" desc="Edward Tinney" />
+          </B2b>
+        </Shared>
+        <AFElement>
+          <Name>Process Control Lead</Name>
+          <Shared id="cdbapc1">
+            <B2b>
+              <cai id="jpdu" desc="Jon Piche" />
+              <cai id="zdel" desc="Zhang Delin" />
+            </B2b>
+          </Shared>
+          <AFElement>
+            <Name>Process Control / AM Engineer</Name>
+            <Shared id="cdbapc2">
+              <B2b>
+                <cai id="fcxh" desc="Botha Clyde" />
+                <cai id="kqwl" desc="Wang Jie" />
+              </B2b>
+            </Shared>
+          </AFElement>
+        </AFElement>
+        <AFElement>
+          <Name>Control Systems Lead</Name>
+          <Shared id="cdbacs1">
+            <B2b>
+              <cai id="rflh" desc="Robert Bagley" />
+              <cai id="trgi" desc="Tim Gifford" />
+            </B2b>
+          </Shared>
+          <AFElement>
+            <Name>GQ Automation Advisor</Name>
+            <Shared id="cdbacs4">
+              <B2b>
+                <cai id="dveb" desc="Dimitar Velev" />
+                <cai id="brzw" desc="Alan Petherbridge" />
+              </B2b>
+            </Shared>
+          </AFElement>
+          <AFElement>
+            <Name>PLDS/CMS Engineer</Name>
+            <Shared id="cdbacs11">
+              <B2b>
+                <cai id="nmat" desc="Utkir Matmuratov" />
+                <cai id="uaqi" desc="Sergei Korolyov" />
+              </B2b>
+            </Shared>
+          </AFElement>
+        </AFElement>
+        <AFElement>
+          <Name>PCN IT Lead</Name>
+          <Shared id="cdbpcn1">
+            <B2b>
+              <cai id="chza" desc="Charles Zachmeyer" />
+              <cai id="crda" desc="Clyde Davenport" />
+            </B2b>
+          </Shared>
+          <AFElement>
+            <Name>PCN IT Analyst 1</Name>
+            <Shared id="cdbpcn2">
+              <B2b>
+                <cai id="thuq" desc="Tao Hu" />
+                <cai id="hqub" desc="Tony Qu" />
+              </B2b>
+            </Shared>
+          </AFElement>
+          <AFElement>
+            <Name>PCN IT Analyst 2</Name>
+            <Shared id="cdbpcn3">
+              <B2b>
+                <cai id="euhx" desc="Ken Zhou" />
+                <cai id="yuzo" desc="Randy Zou" />
+              </B2b>
+            </Shared>
+          </AFElement>
+          <AFElement>
+            <Name>PCN IT Analyst 3</Name>
+            <Shared id="cdbpcn4">
+              <B2b>
+                <cai id="thwv" desc="Simon Chen" />
+                <cai id="lybb" desc="Leon Yang" />
+              </B2b>
+            </Shared>
+          </AFElement>
+        </AFElement>
+        <AFElement>
+          <Name>Safety Systems Lead</Name>
+          <Shared id="cdbsis1">
+            <B2b>
+              <cai id="mkhv" desc="Muhammad Aftab Khan" />
+              <cai id="bnvl" desc="Vladimir Berezovsky" />
+            </B2b>
+          </Shared>
+        </AFElement>
+      </AFElement>
+      <AFElement>
+        <Name>Operations Superintendent</Name>
+        <Shared id="cdbops1">
+          <B2b>
+            <cai id="jdjw" desc="James Willis" />
+            <cai id="gibc" desc="Colin Gibson" />
+          </B2b>
+        </Shared>
+        <AFElement>
+          <Name>Utilities Supervisor</Name>
+          <Shared id="cdbnuad">
+            <B2b>
+              <cai id="brlr" desc="Bruce Rogers" />
+              <cai id="txiu" desc="Todd Burns" />
+            </B2b>
+          </Shared>
+          <AFElement>
+            <Name>Ops Team Lead #1</Name>
+            <Shared id="cdbnuad">
+              <B2b>
+                <cai id="ofwa" desc="Marc McNeil" />
+                <cai id="vrif" desc="Vital Ross" />
+              </B2b>
+            </Shared>
+          </AFElement>
+          <AFElement>
+            <Name>Ops Team Lead #2</Name>
+            <Shared id="cdbnuad">
+              <B2b>
+                <cai id="oggc" desc="Michael Sutton" />
+                <cai id="ohcu" desc="Waiting Michael" />
+              </B2b>
+            </Shared>
+          </AFElement>
+          <AFElement>
+            <Name>Ops Team Lead #3</Name>
+            <Shared id="cdbnuad">
+              <B2b>
+                <cai id="kopq" desc="Ken Hare" />
+                <cai id="tkxa" desc="Scott McKean" />
+              </B2b>
+            </Shared>
+          </AFElement>
+        </AFElement>
+        <AFElement>
+          <Name>Plant Operations Advisor</Name>
+          <Shared id="cdbopstl1">
+            <B2b>
+              <cai id="jfbn" desc="Jeffrey Boone" />
+              <cai id="cmpr" desc="Michael Campers" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Logistics Supervisor</Name>
+          <Shared id="cdbopsls">
+            <B2b>
+              <cai id="jxun" desc="Jiaxiang Justin Xu" />
+              <cai id="jica" desc="Jia Marco Cai" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Technical Translator</Name>
+          <Shared id="cdbops1">
+            <B2b>
+              <cai id="qiaw" desc="Grace Wen" />
+              <cai id="udqc" desc="Mocca Hu" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Sulfur Forming Advisor</Name>
+          <Shared id="cdbops1">
+            <B2b>
+              <cai id="lmso" desc="Leo Soldano" />
+              <cai id="mfsi" desc="Mark Sillimon" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Gas Coordinator #1</Name>
+          <Shared id="cdbops1">
+            <B2b>
+              <cai id="wcgs" desc="Chris Cheng" />
+              <cai id="huus" desc="Jack Hu" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Gas Coordinator #2</Name>
+          <Shared id="cdbops1">
+            <B2b>
+              <cai id="lnxu" desc="Scott Li" />
+              <cai id="lzaj" desc="Shirley Zhang" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Xuanhan Plant Supervisor</Name>
+          <Shared id="cdbops1">
+            <B2b>
+              <cai id="luoy" desc="Luo Guomin" />
+              <cai id="wqia" desc="Qiao Weiling" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Permits Coordinator</Name>
+          <Shared id="cdbops1">
+            <B2b>
+              <cai id="ejuy" desc="Drew Ross" />
+              <cai id="lgiz" desc="Gregory Lewry" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Process Engineer</Name>
+          <Shared id="cdbops1">
+            <B2b>
+              <cai id="uizv" desc="Samir Maiti" />
+              <cai id="" desc="" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Ops Team Leader</Name>
+          <Shared id="cdbops1">
+            <B2b>
+              <cai id="kbra" desc="Kenneth Bratz" />
+              <cai id="" desc="" />
+            </B2b>
+          </Shared>
+        </AFElement>
+      </AFElement>
+      <AFElement>
+        <Name>Field Operations Superintendent</Name>
+        <Shared id="cdbfos">
+          <B2b>
+            <cai id="auwp" desc="Austin Pranger" />
+            <cai id="mccf" desc="Mitch Chapman" />
+          </B2b>
+        </Shared>
+        <AFElement>
+          <Name>ODP1 Operation Advisor</Name>
+          <Shared id="cdbops2">
+            <B2b>
+              <cai id="gdia" desc="Landon Diaz" />
+              <cai id="moji" desc="Jim Monaghan" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>OTT Operation Advisor</Name>
+          <Shared id="cdbopstl1">
+            <B2b>
+              <cai id="cker" desc="Chris Kerr" />
+              <cai id="nrrt" desc="Chuck Nelson" />
+            </B2b>
+          </Shared>
+        </AFElement>
+      </AFElement>
+      <AFElement>
+        <Name>Maintenance Superintendent</Name>
+        <Shared id="cdbmts">
+          <B2b>
+            <cai id="bsjt" desc="stephen Burnett" />
+            <cai id="prlm" desc="Patrick Rayn" />
+          </B2b>
+        </Shared>
+        <AFElement>
+          <Name>Maint I and E Supervisor</Name>
+          <Shared id="cdbopstl1">
+            <B2b>
+              <cai id="cker" desc="Anthony Joyson" />
+              <cai id="nrrt" desc="Steven Spradley" />
+            </B2b>
+          </Shared>
+        </AFElement>
+        <AFElement>
+          <Name>Mechanical Supervisor</Name>
+          <Shared id="cdbmts">
+            <B2b>
+              <cai id="gwmu" desc="Gordon Mulligan" />
+              <cai id="lmwl" desc="Leslie Waters" />
+            </B2b>
+          </Shared>
+        </AFElement>
+      </AFElement>
+      <AFElement>
+        <Name>Operations Planner</Name>
+        <Shared id="cdbopssp">
+          <B2b>
+            <cai id="bpqz" desc="Andrew Ford" />
+            <cai id="" desc="" />
+          </B2b>
+        </Shared>
+      </AFElement>
+      <AFElement>
+        <Name>Competency Devel. Stnd.</Name>
+        <Shared id="cdbcds1">
+          <B2b>
+            <cai id="cgli" desc="Chad Glisson" />
+            <cai id="rsgi" desc="Rob Gillanders" />
+          </B2b>
+        </Shared>
+      </AFElement>
+      <AFElement>
+        <Name>Operations Assistant</Name>
+        <Shared id="cdbopassit1">
+          <B2b>
+            <cai id="zhqn" desc="Helen Zhang" />
+            <cai id="xwuo" desc="Shine Wu" />
+          </B2b>
+        </Shared>
+      </AFElement>
+    </AFElement>
+    <AFElement>
+      <Name>FE Manager</Name>
+      <Shared id="cdbfemgr">
+        <B2b>
+          <cai id="orac" desc="Daniel Oracheski" />
+          <cai id="gmrs" desc="Robin Marsh" />
+        </B2b>
+      </Shared>
+      <AFElement>
+        <Name>FE Construction Supervisor</Name>
+        <Shared id="cdbnfocs">
+          <B2b>
+            <cai id="clhh" desc="Clinton Harrington" />
+            <cai id="adkm" desc="Jim Chancey" />
+          </B2b>
+        </Shared>
+      </AFElement>
+      <AFElement>
+        <Name>Sr. Process Engineer</Name>
+        <Shared id="cdbfepro1">
+          <B2b>
+            <cai id="bsjt" desc="Ken Hicks" />
+            <cai id="prlm" desc="Ryan Brix" />
+          </B2b>
+        </Shared>
+      </AFElement>
+      <AFElement>
+        <Name>Instrument Controls Engineer</Name>
+        <Shared id="cdbmts">
+          <B2b>
+            <cai id="bsjt" desc="Scott Bates" />
+            <cai id="prlm" desc="Yap Zhen Mei" />
+          </B2b>
+        </Shared>
+      </AFElement>
+      <AFElement>
+        <Name>Mechanical Engineer</Name>
+        <Shared id="cdbmts">
+          <B2b>
+            <cai id="bsjt" desc="Shen Jianming" />
+            <cai id="prlm" desc="Thomas Schlicht" />
+          </B2b>
+        </Shared>
+      </AFElement>
+      <AFElement>
+        <Name>Electrical Engineer</Name>
+        <Shared id="cdbmts">
+          <B2b>
+            <cai id="bsjt" desc="Hakeem Folami" />
+            <cai id="prlm" desc="Nicholas Pew" />
+          </B2b>
+        </Shared>
+      </AFElement>
+      <AFElement>
+        <Name>Reliability Supervisor</Name>
+        <Shared id="cdbmts">
+          <B2b>
+            <cai id="bsjt" desc="Chris Buterbaugh" />
+            <cai id="prlm" desc="Tonny Eilertson" />
+          </B2b>
+        </Shared>
+        <AFElement>
+          <Name>Mechanical Reliability Eng</Name>
+          <Shared id="cdbmts">
+            <B2b>
+              <cai id="bsjt" desc="Daniel Ciliberti" />
+              <cai id="prlm" desc="Douglas Knutson" />
+            </B2b>
+          </Shared>
+        </AFElement>
+      </AFElement>
+    </AFElement>
+    <AFElement>
+      <Name>Security Manager</Name>
+      <Shared id="cdbsec1">
+        <B2b>
+          <cai id="bnkl" desc="Beyers Kleynhans" />
+          <cai id="kwxi" desc="Kevin Drake" />
+        </B2b>
+      </Shared>
+    </AFElement>
+    <AFElement>
+      <Name>Subsurface Manager</Name>
+      <Shared id="kcsc">
+        <B2b>
+          <cai id="kcsc" desc="Kevin Scott" />
+          <cai id="" desc="" />
+        </B2b>
+      </Shared>
+    </AFElement>
+  </AFElement>
+  <AFElement>
+    <Name>OE/HES Manager</Name>
+    <Shared id="cdbmts">
+      <B2b>
+        <cai id="bsjt" desc="Robert Boman" />
+        <cai id="prlm" desc="Scott Cook" />
+      </B2b>
+    </Shared>
+    <AFElement>
+      <Name>TL - Env, Reg. Compl &amp; Plan</Name>
+      <Shared id="cdbmts">
+        <B2b>
+          <cai id="rklg" desc="Roya Kambin" />
+          <cai id="sepr" desc="Steve Pratt" />
+        </B2b>
+      </Shared>
+    </AFElement>
+    <AFElement>
+      <Name>ER Team Lead</Name>
+      <Shared id="cdbmts">
+        <B2b>
+          <cai id="bxnu" desc="Brian Will" />
+          <cai id="mvke" desc="Matt Kelly" />
+        </B2b>
+      </Shared>
+    </AFElement>
+    <AFElement>
+      <Name>Team Lead - HES Technical</Name>
+      <Shared id="cdbmts">
+        <B2b>
+          <cai id="mjnj" desc="Mobashar Hasan" />
+          <cai id="rqll" desc="Robert Lamey" />
+        </B2b>
+      </Shared>
+    </AFElement>
+    <AFElement>
+      <Name>HES Operations Supervisor</Name>
+      <Shared id="cdbmts">
+        <B2b>
+          <cai id="qins" desc="Pippo Qin" />
+          <cai id="tyao" desc="Tony Yao" />
+        </B2b>
+      </Shared>
+    </AFElement>
+  </AFElement>
+</AF>

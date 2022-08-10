@@ -1,0 +1,134 @@
+<?xml version="1.0" ?>
+<aors>
+<groups>
+	<group id="WEST">
+		<pipe>CAPROD</pipe>
+    <pipe>CACRUD</pipe>
+    <pipe>NWCRUD</pipe>
+	</group>
+	<group id="GULF">
+		<pipe>GC3P</pipe>
+		<pipe>GCCK</pipe>
+		<pipe>GCEM</pipe>
+    <pipe>GCFE</pipe>
+    <pipe>GCFOUR</pipe>
+    <pipe>GCST</pipe>
+    <pipe>GCST</pipe>
+    <pipe>GCTS</pipe>
+    <pipe>GCWC</pipe>
+	</group>
+</groups>
+<users>
+
+  <user id="kyos">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="bzye">
+		<aor>WEST</aor>
+    <aor>GULF</aor>
+	</user>
+	<user id="egty">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+	</user>
+  <user id="wbbv">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="wbbv">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="rild">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="dlmu">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="ejco">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="ubqn">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="tlvg">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="dnfo">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="elwt">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+  <user id="jktp">
+    <aor>WEST</aor>
+    <aor>GULF</aor>
+  </user>
+
+  <user id="laso">
+    <aor>WEST</aor>
+  </user>
+  <user id="dmpr">
+    <aor>WEST</aor>
+  </user>
+  <user id="ptgr">
+    <aor>WEST</aor>
+  </user>
+  <user id="llgd">
+    <aor>WEST</aor>
+  </user>
+  <user id="lmjo">
+    <aor>WEST</aor>
+  </user>
+    <user id="vrbw">
+    <aor>WEST</aor>
+  </user>
+  <user id="ecli">
+    <aor>WEST</aor>
+  </user>
+  <user id="iash">
+    <aor>WEST</aor>
+  </user>
+  <user id="slvd">
+    <aor>WEST</aor>
+  </user>
+  <user id="kick">
+    <aor>WEST</aor>
+  </user>
+  <user id="buls">
+    <aor>WEST</aor>
+  </user>
+  <user id="cuyr">
+    <aor>WEST</aor>
+  </user>
+  <user id="tyje">
+    <aor>WEST</aor>
+  </user>
+  
+  
+	<user id="kjev">
+		<aor>GULF</aor>
+	</user>
+  <user id="elac">
+    <aor>GULF</aor>
+  </user>
+  <user id="recu">
+    <aor>GULF</aor>
+  </user>
+  <user id="dbrd">
+    <aor>GULF</aor>
+  </user>
+  <user id="lloe">
+    <aor>GULF</aor>
+  </user>
+	
+</users>
+</aors>
