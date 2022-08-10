@@ -204,7 +204,14 @@ Public Class ADDHOC
         Dim ii1 As Integer = 0
 
         For Each nnode In config_aa.SelectNodes("//input")
-            stemp = stemp & " " & UCase(nnode.attributes.getnameditem("var").value.ToString) & "." & UCase(nnode.attributes.getnameditem("ext").value.ToString)
+
+            'modified by yutecxa 2022-8-5
+            If UCase(nnode.attributes.getnameditem("var").value.ToString) = "SULFUR_INVENTORY_CAL_TONS" Then
+                stemp = stemp & " Total Sulfur Inventory (ton)"
+            Else
+                stemp = stemp & " " & UCase(nnode.attributes.getnameditem("var").value.ToString) & "." & UCase(nnode.attributes.getnameditem("ext").value.ToString)
+            End If
+
             ReDim Preserve sTags(ii1)
             ReDim Preserve sScales(ii1)
             ReDim Preserve blnEqu(ii1)
@@ -221,7 +228,13 @@ Public Class ADDHOC
                     seQus(ii1) = nnode.attributes.getnameditem("equ").value.ToString
                     stemp = nnode.attributes.getnameditem("tag").value.ToString
                 Else
-                    sTags(ii1) = UCase(nnode.attributes.getnameditem("var").value.ToString) & "." & UCase(nnode.attributes.getnameditem("ext").value.ToString)
+                    'modified by yutecxa 2022-8-5
+                    If UCase(nnode.attributes.getnameditem("var").value.ToString) = "SULFUR_INVENTORY_CAL_TONS" Then
+                        sTags(ii1) = UCase(nnode.attributes.getnameditem("var").value.ToString)
+                    Else
+                        sTags(ii1) = UCase(nnode.attributes.getnameditem("var").value.ToString) & "." & UCase(nnode.attributes.getnameditem("ext").value.ToString)
+                    End If
+
                     blnEqu(ii1) = False
                 End If
             Catch ex As Exception

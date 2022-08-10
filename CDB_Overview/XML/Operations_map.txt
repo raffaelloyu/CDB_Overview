@@ -1385,10 +1385,9 @@
     <time/>
 	 </input>
 	 
-	       <input server='conn3' name='txtTank1_inv' hihi='' type='analog_equ' ext='PV' var='XHN_SLFR-PLNT_LIQ-SLFR-TK-1_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-2_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-3_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-5_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-6_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-7_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-8_L-1.PV;XHN_SLFR-PLNT_LIQ-SLFR-TK-9_L-1.PV;XHN_SLFR-PLNT_SLFR-PIT_L.PV' equ='(X1*36.02659+86.5)+(X2*36.02659+86.5)+(X3*36.02659+86.5)+(X4*36.02659+86.5)+(X5*36.02659+86.5)+(X6*36.02659+86.5)+(X7*36.02659+86.5)+(X8*36.02659+86.5)+(X9*0.5607+8.01)' trend='no' blantag='none' scale="1">
-    <PV/>
-    <flag_fg>#FF000042</flag_fg>
-    <time/>
-
-  </input>
+	       <input server="conn3" name="txtTank1_inv" hihi="" type="analog" var="sulfur_inventory_cal_tons" ext="PV" trend="no" blantag="none" scale="1">
+        <PV />
+        <flag_fg>#FF000042</flag_fg>
+        <time />
+    </input>
 </variables>

@@ -73,10 +73,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>8F41397A05800A4D9958FA756837FE5122C4E876</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>9698B1D372D99088B74AAEAEC59AB03825F92C4A</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>CDB_Overview_17_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>CDB_Overview_18_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -454,6 +454,7 @@
     <None Include="CDB_Overview_15_TemporaryKey.pfx" />
     <None Include="CDB_Overview_16_TemporaryKey.pfx" />
     <None Include="CDB_Overview_17_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_18_TemporaryKey.pfx" />
     <None Include="CDB_Overview_1_TemporaryKey.pfx" />
     <None Include="CDB_Overview_2_TemporaryKey.pfx" />
     <None Include="CDB_Overview_3_TemporaryKey.pfx" />

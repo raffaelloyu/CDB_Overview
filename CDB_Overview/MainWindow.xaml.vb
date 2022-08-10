@@ -460,9 +460,9 @@ Class MainWindow
         System.Windows.Threading.Dispatcher.Run()
     End Sub
     Private Sub callPro()
-        Thread = New Thread(AddressOf startPro)
-        Thread.SetApartmentState(ApartmentState.STA)
-        Thread.Start()
+        thread = New Thread(AddressOf startPro)
+        thread.SetApartmentState(ApartmentState.STA)
+        thread.Start()
     End Sub
     Public Sub createPage(ByVal sArea As String, ByVal sPipe As String, ByVal sPageType As String)
 
@@ -608,13 +608,17 @@ Class MainWindow
                         newtxt.AddHandler(PreviewMouseDownEvent, New RoutedEventHandler(AddressOf getTrend))
                     Else
                         sEqu = ""
-                        sTag = sTagName & "." & sEX
+                        'modify by Yutecxa 2022-8-5 特殊处理硫磺总库存字段
+                        If sName = "txtTank1_inv" Then
+                            sTag = sTagName
+                        Else
+                            sTag = sTagName & "." & sEX
+                        End If
                         newelem.ElementPITag = sTag
                         newtxt.AddHandler(PreviewMouseDownEvent, New RoutedEventHandler(AddressOf getTrend))
                     End If
 
                     newelem.ElementEqu = sEqu
-
                     newelem.ElementName = sName
                     newelem.ElementTag = sTagName
 
@@ -1109,7 +1113,9 @@ Class MainWindow
 
         dTime = (Now - kida.ElementTime)
 
-
+        If kida.ElementName = "txtTank1_inv" Then
+            Console.WriteLine(kida.ElementName)
+        End If
         If dTime > TimeSpan.FromSeconds(20) Then
             rand = New Random(1)
             '    itemp = rand.Next(0, 20)
@@ -1553,7 +1559,9 @@ Class MainWindow
     Private Sub elementTest(ByRef kida As testpu, ByRef element As Xml.XmlNode, ByVal curval As Object, ByVal sType As String, ByVal sEx As String)
         '' Dim element As Xml.XmlNode = aak1.ElementXML.Clone
         'Dim sEx As String
-        If curval.GetType.Name = "Single" Or curval.GetType.Name = "Int16" Or curval.GetType.Name = "Int32" Or curval.GetType.Name = "AFEnumerationValue" Then
+
+        'modified by yutecxa 2022-8-5 add condition for txtTank1_inv
+        If element.Attributes.GetNamedItem("name").Value = "txtTank1_inv" Or curval.GetType.Name = "Single" Or curval.GetType.Name = "Int16" Or curval.GetType.Name = "Int32" Or curval.GetType.Name = "AFEnumerationValue" Then
             If sType = "analog" Or sType = "batmtr" Or sType = "plm" Or sType = "tank" Then
                 Try
                     If element.SelectSingleNode(sEx).InnerText <> CStr(curval) Then
@@ -1951,7 +1959,7 @@ Class MainWindow
             sTagDrag = sender.Tag
             sEX = config_aa.DocumentElement.SelectSingleNode("input[@name='" & sender.Name & "']").Attributes.GetNamedItem("ext").Value
 
-        strXML = "<variables>"
+            strXML = "<variables>"
             strXML = strXML & "<input trend='yes' var='" & sender.Tag & "' ext='" & sEX & "'><value/><time/></input>"
             strXML = strXML & "</variables>"
 
