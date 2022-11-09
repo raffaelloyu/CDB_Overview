@@ -28,7 +28,7 @@
     <PublisherName>PCCOC 自动化团队</PublisherName>
     <SuiteName>PCCOC ProWorks</SuiteName>
     <MinimumRequiredVersion>0.0.0.0</MinimumRequiredVersion>
-    <ApplicationRevision>52</ApplicationRevision>
+    <ApplicationRevision>53</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -73,10 +73,10 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>14B2ED76673E74636FC4A129FCE14123E317F551</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>0515B90FDC7823A675EA306C95D3FA6169BBFEDB</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>CDB_Overview_18_TemporaryKey.pfx</ManifestKeyFile>
+    <ManifestKeyFile>CDB_Overview_19_TemporaryKey.pfx</ManifestKeyFile>
   </PropertyGroup>
   <PropertyGroup>
     <GenerateManifests>true</GenerateManifests>
@@ -456,6 +456,7 @@
     <None Include="CDB_Overview_16_TemporaryKey.pfx" />
     <None Include="CDB_Overview_17_TemporaryKey.pfx" />
     <None Include="CDB_Overview_18_TemporaryKey.pfx" />
+    <None Include="CDB_Overview_19_TemporaryKey.pfx" />
     <None Include="CDB_Overview_1_TemporaryKey.pfx" />
     <None Include="CDB_Overview_2_TemporaryKey.pfx" />
     <None Include="CDB_Overview_3_TemporaryKey.pfx" />

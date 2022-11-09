@@ -1,11 +1,15 @@
 ﻿Imports System.Globalization
 
+'add by yutecxa 2022-11-09
 Public Class SalesGasConverter
     Implements IValueConverter
 
     Public Function Convert(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object Implements IValueConverter.Convert
-        Return Format(value * 100, "#.##")
-
+        If IsNumeric(value) Then
+            Return Format(CSng(value) * 100, "#.##")
+        Else
+            Return "N/A"
+        End If
     End Function
 
     Public Function ConvertBack(value As Object, targetType As Type, parameter As Object, culture As CultureInfo) As Object Implements IValueConverter.ConvertBack
