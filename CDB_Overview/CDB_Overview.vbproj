@@ -28,7 +28,7 @@
     <PublisherName>PCCOC 自动化团队</PublisherName>
     <SuiteName>PCCOC ProWorks</SuiteName>
     <MinimumRequiredVersion>0.0.0.0</MinimumRequiredVersion>
-    <ApplicationRevision>42</ApplicationRevision>
+    <ApplicationRevision>52</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
@@ -73,7 +73,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestCertificateThumbprint>9698B1D372D99088B74AAEAEC59AB03825F92C4A</ManifestCertificateThumbprint>
+    <ManifestCertificateThumbprint>14B2ED76673E74636FC4A129FCE14123E317F551</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>
     <ManifestKeyFile>CDB_Overview_18_TemporaryKey.pfx</ManifestKeyFile>
@@ -791,7 +791,7 @@
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.6.1">
       <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 and x64%29</ProductName>
+      <ProductName>Microsoft .NET Framework 4.6.1 %28x86 和 x64%29</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">

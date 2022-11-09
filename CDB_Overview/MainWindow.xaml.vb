@@ -619,6 +619,7 @@ Class MainWindow
                     End If
 
                     newelem.ElementEqu = sEqu
+
                     newelem.ElementName = sName
                     newelem.ElementTag = sTagName
 
@@ -1113,9 +1114,11 @@ Class MainWindow
 
         dTime = (Now - kida.ElementTime)
 
+        'modified by yutecxa : log for test
         If kida.ElementName = "txtTank1_inv" Then
             Console.WriteLine(kida.ElementName)
         End If
+
         If dTime > TimeSpan.FromSeconds(20) Then
             rand = New Random(1)
             '    itemp = rand.Next(0, 20)
@@ -1557,10 +1560,10 @@ Class MainWindow
     End Sub
 
     Private Sub elementTest(ByRef kida As testpu, ByRef element As Xml.XmlNode, ByVal curval As Object, ByVal sType As String, ByVal sEx As String)
-        '' Dim element As Xml.XmlNode = aak1.ElementXML.Clone
+        'Dim element As Xml.XmlNode = aak1.ElementXML.Clone
         'Dim sEx As String
-
         'modified by yutecxa 2022-8-5 add condition for txtTank1_inv
+        'If curval.GetType.Name = "Single" Or curval.GetType.Name = "Int16" Or curval.GetType.Name = "Int32" Or curval.GetType.Name = "AFEnumerationValue" Then
         If element.Attributes.GetNamedItem("name").Value = "txtTank1_inv" Or curval.GetType.Name = "Single" Or curval.GetType.Name = "Int16" Or curval.GetType.Name = "Int32" Or curval.GetType.Name = "AFEnumerationValue" Then
             If sType = "analog" Or sType = "batmtr" Or sType = "plm" Or sType = "tank" Then
                 Try

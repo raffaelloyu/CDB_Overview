@@ -88,13 +88,13 @@ Public Class SulfurDelivery
             Call createSulfur()
 
             comYear.Items.Clear()
-            comYear.Items.Add("2016")
-            comYear.Items.Add("2017")
-            comYear.Items.Add("2018")
-            comYear.Items.Add("2019")
-            comYear.SelectedIndex = 3
+            comYear.Items.Add("2020")
+            comYear.Items.Add("2021")
+            comYear.Items.Add("2022")
+            comYear.Items.Add("2023")
+            comYear.SelectedIndex = 2
 
-            lblYTDYear.Content = "YTD 2019"
+            lblYTDYear.Content = "YTD 2022"
 
         Catch ex As Exception
 

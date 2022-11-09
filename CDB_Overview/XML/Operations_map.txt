@@ -7,7 +7,7 @@
     <time/>
   </input>
 
-     <input server='conn3' name='txtSO2Flow_total' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_STACK_SO2-ANLYZR-1.PV;FI070971A_1.PV;XHN_GAS-PLNT_TRN-2_STACK_SO2-ANLYZR-1.PV;FI070971A_2.PV;AI070988A_3.PV;FI070971A_3.PV' equ='((X1*X2)+(X3*X4)+(X5*X6))*0.0036' trend='no' blantag='none' scale="1">
+     <input server='conn3' name='txtSO2Flow_total' type='analog_equ' ext='PV' var='XHN_GAS-PLNT_TRN-1_STACK_SO2-ANLYZR-1.PV;FI070971A_1.PV;XHN_GAS-PLNT_TRN-2_STACK_SO2-ANLYZR-1.PV;FI070971A_2.PV;XHN_GAS-PLNT_TRN-3_STACK_SO2-ANLYZR-1.PV;FI070971A_3.PV' equ='((X1*X2)+(X3*X4)+(X5*X6))*0.0036' trend='no' blantag='none' scale="1">
     <PV/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
@@ -266,20 +266,20 @@
   </input>
 
 
-      <input server='conn3' name='rtLJ11H_fl' type='analog' ext='PV' var='WPA_LJ_11H_IFRT_RATE_CALC' trend='no' blantag='none'>
-    <PV/>
+      <input server='conn3' name='rtLJ11H_fl' type='analog' ext='PE' var='WPA_LJ_11H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
 
-        <input server='conn3' name='rtLJ12H_fl' type='analog' ext='PV' var='WPA_LJ_12H_IFRT_RATE_CALC' trend='no' blantag='none'>
-    <PV/>
+        <input server='conn3' name='rtLJ12H_fl' type='analog' ext='PE' var='WPA_LJ_12H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
 
-        <input server='conn3' name='rtLJ13H_fl' type='analog' ext='PV' var='WPA_LJ_13H_IFRT_RATE_CALC' trend='no' blantag='none'>
-    <PV/>
+        <input server='conn3' name='rtLJ13H_fl' type='analog' ext='PE' var='WPA_LJ_13H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -385,8 +385,8 @@
     <time/>
   </input>
 
-    <input server='conn3' name='rtTEG1_p' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-1_STG-5-DISCH-P' trend='no' blantag='none'>
-    <PV/>
+    <input server='conn3' name='rtTEG1_p' type='analog' ext='PE' var='PI020759_1' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -402,8 +402,8 @@
     <time/>
   </input>
 
-    <input server='conn3' name='rtTEG2_p' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-2_STG-5-DISCH-P' trend='no' blantag='none'>
-    <PV/>
+    <input server='conn3' name='rtTEG2_p' type='analog' ext='PE' var='PI020759_2' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -419,8 +419,8 @@
     <time/>
   </input>
 
-    <input server='conn3' name='rtTEG3_p' type='analog' ext='PV' var='XHN_GS-B_ACID-GAS-COMP-3_STG-5-DISCH-P' trend='no' blantag='none'>
-    <PV/>
+    <input server='conn3' name='rtTEG3_p' type='analog' ext='PE' var='PI020759_3' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -604,19 +604,19 @@
     <time/>
   </input>
 
-            <input server='conn3' name='rtAI070651_1' type='analog' ext='PV' var='AI070651_1' trend='no' blantag='none'>
+            <input server='conn3' name='rtAI070601_1_C' type='analog' ext='PV' var='AI070601_1_C' trend='no' blantag='none'>
     <PV/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
 
-            <input server='conn3' name='rtAI070651_2' type='analog' ext='PV' var='AI070651_2' trend='no' blantag='none'>
+            <input server='conn3' name='rtAI070601_2_C' type='analog' ext='PV' var='AI070601_2_C' trend='no' blantag='none'>
     <PV/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
 
-              <input server='conn3' name='rtAI070651_3' type='analog' ext='PV' var='AI070651_3' trend='no' blantag='none'>
+              <input server='conn3' name='rtAI070601_3_C' type='analog' ext='PV' var='AI070601_3_C' trend='no' blantag='none'>
     <PV/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
@@ -694,14 +694,14 @@
     <time/>
   </input>
 
-   <input server='conn3' name='rtPipeDis' type='analog' ext='PV' var='PI020410' trend='no' blantag='none'>
-    <PV/>
+   <input server='conn3' name='rtPipeDis' type='analog' ext='PE' var='PI020410' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
   
-   <input server='conn3' name='rtPipeEnd' type='analog' ext='PV' var='PI071216' trend='no' blantag='none'>
-    <PV/>
+   <input server='conn3' name='rtPipeEnd' type='analog' ext='PE' var='PI071216' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -814,16 +814,16 @@
     <time/>
   </input>
 
-      <input server='conn3' name='txtTotalWA1' type='analog' ext='PV' var='WPA_GROSS_GAS_EXPORT_RATE_CALC' trend='no' blantag='none'>
-    <PV/>
+      <input server='conn3' name='txtTotalWA1' type='analog' ext='PE' var='WPA_GROSS_GAS_EXPORT_RATE_CALC' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
 
 
 
-        <input server='conn3' name='txtTotalWC1' type='analog' ext='PV' var='WPC_GROSS_GAS_EXPORT_RATE_CALC' trend='no' blantag='none'>
-    <PV/>
+        <input server='conn3' name='txtTotalWC1' type='analog' ext='PE' var='WPC_GROSS_GAS_EXPORT_RATE_CALC' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -910,8 +910,8 @@
     <time/>
   </input>
 
-          <input server='conn3' name='rtLJ14_fl' type='analog' ext='PV' var='WPC_LJ_14H_IFRT_RATE_CALC' trend='no' blantag='none'>
-    <PV/>
+          <input server='conn3' name='rtLJ14_fl' type='analog' ext='PE' var='WPC_LJ_14H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -928,8 +928,8 @@
     <time/>
   </input>
 
-          <input server='conn3' name='rtLJ15_fl' type='analog' ext='PV' var='WPC_LJ_15H_IFRT_RATE_CALC' trend='no' blantag='none'>
-    <PV/>
+          <input server='conn3' name='rtLJ15_fl' type='analog' ext='PE' var='WPC_LJ_15H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -946,8 +946,8 @@
     <time/>
   </input>
 
-          <input server='conn3' name='rtLJ20_fl' type='analog' ext='PV' var='WPC_LJ_20H_IFRT_RATE_CALC' trend='no' blantag='none'>
-    <PV/>
+          <input server='conn3' name='rtLJ20_fl' type='analog' ext='PE' var='WPC_LJ_20H_IFRT_RATE_CALC' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -1130,20 +1130,20 @@
   </input>
 
   
-    <input server='conn3' name='rtSO2AI070908_1'  hihi='960' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-1_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
-    <PV/>
+    <input server='conn3' name='rtSO2AI070908_1'  hihi='960' type='analog' ext='PE' var='XHN_GAS-PLNT_TRN-1_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
 
-      <input server='conn3' name='rtSO2AI070908_2' hihi='960' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-2_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
-    <PV/>
+      <input server='conn3' name='rtSO2AI070908_2' hihi='960' type='analog' ext='PE' var='XHN_GAS-PLNT_TRN-2_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
 
-      <input server='conn3' name='rtSO2AI070908_3' hihi='960' type='analog' ext='PV' var='XHN_GAS-PLNT_TRN-3_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
-    <PV/>
+      <input server='conn3' name='rtSO2AI070908_3' hihi='960' type='analog' ext='PE' var='XHN_GAS-PLNT_TRN-3_STACK_SO2-ANLYZR-1' trend='no' blantag='none'>
+    <PE/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
   </input>
@@ -1205,7 +1205,7 @@
   </input>
 
   
-      <input server='conn3' name='rtAI071101_B09' hihi='3' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID-MTR-1_GAS-ANLYS-CO2' trend='no' blantag='none'>
+      <input server='conn3' name='rtAI071101_A09' hihi='3' type='analog' ext='PV' var='XHN_GAS-PLNT_MTR-SKID-MTR-1_GAS-ANLYS-CO2-NRMLSD' trend='no' blantag='none'>
     <PV/>
     <flag_fg>#FF000042</flag_fg>
     <time/>
@@ -1385,9 +1385,10 @@
     <time/>
 	 </input>
 	 
-	       <input server="conn3" name="txtTank1_inv" hihi="" type="analog" var="sulfur_inventory_cal_tons" ext="PV" trend="no" blantag="none" scale="1">
-        <PV />
-        <flag_fg>#FF000042</flag_fg>
-        <time />
-    </input>
+	      <input server="conn3" name="txtTank1_inv" hihi="" type="analog" var="sulfur_inventory_cal_tons" ext="PV" trend="no" blantag="none" scale="1">
+    <PV/>
+    <flag_fg>#FF000042</flag_fg>
+    <time/>
+
+  </input>
 </variables>

@@ -151,9 +151,9 @@
         <Label Foreground='#FF0B335A' Content="DELIVERY DISTRIBUTION" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"  Canvas.Left="502" Canvas.Top="340"/>
         <Label Foreground='#FF0B335A' Content="ACTUAL/FORECAST DELIVERY AND INVENTORY" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"  Canvas.Left="1587" Canvas.Top="185"/>
         <ComboBox x:Name="comYear" VerticalAlignment="Center" HorizontalAlignment="Right" Canvas.Left="85" Canvas.Top="276" Width="79" FontFamily="Verdana" Height="21"/>
-        <Image x:Name="imgPrintSulfur" ToolTip="Create Sulfur Inventory/Delivery Report" Cursor="Hand" Height="30" Canvas.Left="856" Canvas.Top="19" Width="35" Source="Images/trend_1.png" Stretch="Fill"/>
-        <Label Foreground='#FF0B335A' Content="CREATE" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="10.667" FontWeight="Bold" Canvas.Top="5" Canvas.Left="854"/>
-        <Label Foreground='#FF0B335A' Content="REPORT" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="10.667" FontWeight="Bold" Canvas.Top="48" Canvas.Left="854"/>
+        <Image x:Name="imgPrintSulfur" ToolTip="Create Sulfur Inventory/Delivery Report" Cursor="Hand" Height="30" Canvas.Left="856" Canvas.Top="-89" Width="35" Source="Images/trend_1.png" Stretch="Fill"/>
+        <Label Foreground='#FF0B335A' Content="CREATE" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="10.667" FontWeight="Bold" Canvas.Top="-109" Canvas.Left="854"/>
+        <Label Foreground='#FF0B335A' Content="REPORT" HorizontalAlignment="Left" VerticalAlignment="Top" FontSize="10.667" FontWeight="Bold" Canvas.Left="854" Canvas.Top="-52"/>
         <Label x:Name="lblYTDYear" Foreground='#FF0B335A' Content="YTD 0000" HorizontalContentAlignment="Center" VerticalAlignment="Top" FontSize="16" FontWeight="Bold"  Canvas.Left="562" Canvas.Top="358"/>
 
     </Canvas>
