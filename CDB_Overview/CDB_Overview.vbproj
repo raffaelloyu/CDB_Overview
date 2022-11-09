@@ -185,6 +185,7 @@
     <Compile Include="Reactor.xaml.vb">
       <DependentUpon>Reactor.xaml</DependentUpon>
     </Compile>
+    <Compile Include="SalesGasConverter.vb" />
     <Compile Include="Scot_1.xaml.vb">
       <DependentUpon>Scot_1.xaml</DependentUpon>
     </Compile>
@@ -719,6 +720,9 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Resource Include="XML\Operations_map - Copy.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="XML\Operations_map - Copy - 20221109.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
     <Content Include="XML\Scot_reactor_3_map.txt">

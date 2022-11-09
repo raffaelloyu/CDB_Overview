@@ -16,6 +16,7 @@ ShutdownMode="OnMainWindowClose">
             </ResourceDictionary.MergedDictionaries>
             <aa:FormattingConverter x:Key="FormattingConverter"/>
             <aa:BGNumberConverter x:Key="BGNumberConverter"/>
+            <aa:SalesGasConverter x:Key="SalesGasConverter"/>
         </ResourceDictionary>
     </Application.Resources>
 </Application>
